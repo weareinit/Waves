@@ -1,0 +1,20 @@
+.learning-tracks-container {
+    width: 100%;
+}
+
+.track-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 40px 0 0;
+}
+
+.faq-card-container {
+    width: 100%;
+}
+
+@media only screen and (max-width: 400px) {
+    .track-items-container {
+        justify-content: center;
+    }
+}

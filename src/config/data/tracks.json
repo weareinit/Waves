@@ -1,0 +1,32 @@
+[{
+        "title": "Front-end",
+        "identifierPath": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/1024px-Circle_-_black_simple.svg.png",
+        "description": "Brief description on the hardware track. Brief description on the hard",
+        "techs": ["HTML/CSS", "MongoDB", "ReactJS"]
+    },
+    {
+        "title": "Back-end",
+        "identifierPath": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/1024px-Circle_-_black_simple.svg.png",
+        "description": "Brief description on the hardware track. Brief description on the hard",
+        "techs": ["HTML/CSS", "MongoDB", "ReactJS"]
+    },
+
+    {
+        "title": "Hardware",
+        "identifierPath": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/1024px-Circle_-_black_simple.svg.png",
+        "description": "Brief description on the hardware track. Brief description on the hard",
+        "techs": ["HTML/CSS", "MongoDB", "ReactJS"]
+    },
+    {
+        "title": "Artificial Intelligence",
+        "identifierPath": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/1024px-Circle_-_black_simple.svg.png",
+        "description": "Brief description on the hardware track. Brief description on the hard",
+        "techs": ["HTML/CSS", "MongoDB", "ReactJS"]
+    },
+    {
+        "title": "Imformation Technology",
+        "identifierPath": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/1024px-Circle_-_black_simple.svg.png",
+        "description": "Brief description on the hardware track. Brief description on the hard",
+        "techs": ["HTML/CSS", "MongoDB", "ReactJS"]
+    }
+]

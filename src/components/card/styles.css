@@ -1,0 +1,26 @@
+/* CARD */
+
+.card-container {
+    padding: 12.5555px 0;
+}
+
+.card-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 25px;
+    border-radius: 10px;
+    font: var(--sub-heading);
+    font-size: 2em;
+    color: white;
+}
+
+.card-button:hover {
+    cursor: pointer;
+}
+
+.card-content {
+    padding: 12.5555px;
+    text-align: left;
+}

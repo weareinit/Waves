@@ -1,0 +1,51 @@
+.track-card-container {
+    width: 33.33333%;
+    max-width: 330px;
+    height: auto;
+    padding: 5% 4%;
+}
+
+.track-card-container .tech-detail {
+    text-align: left;
+    font-size: 1em;
+}
+
+.track-card-item-description {
+    text-align: center;
+    margin: 0 0 12.555px;
+}
+
+.track-icon {
+    width: 80%;
+    margin: 10px;
+}
+
+.shell-icon {
+    height: 30px;
+    width: 30px;
+    margin: 0 5%;
+}
+
+.shell-and-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 6%;
+}
+
+.shell-and-info.li {
+    list-style-image: url("../../assets/waves/shell.svg");
+}
+
+@media only screen and (max-width: 768px) {
+    .track-card-container {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .track-card-container {
+        width: 100%;
+        padding: 10%;
+    }
+}

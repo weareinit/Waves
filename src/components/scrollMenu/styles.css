@@ -1,0 +1,27 @@
+/* menu */
+
+.menu {
+    color: rgba(255, 255, 255, 0.381);
+    display: inline-block;
+    position: fixed;
+    top: 35%;
+    right: 4.5%;
+    z-index: 10000;
+    font-size: 1.3em;
+}
+
+.menu:hover {
+    pointer-events: all;
+}
+
+.menu a:hover {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.menu div {
+    margin: 10px;
+}
+
+.menu .active {
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,73 @@
+.schedule-button-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.schedule-button-container-mobile {
+    display: none;
+}
+
+.schedule-section-event {
+    text-align: left;
+    margin: 25px 15px 50px;
+}
+
+.schedule-section-event-title {
+    font-weight: 600;
+    font-size: var(--heading);
+    color: white;
+}
+
+.schedule-section-event-description {
+    font-size: var(--sub-heading);
+}
+
+.schedule-container {
+    width: 100%;
+}
+
+.faqCardContainer {
+    width: 80vw;
+}
+
+.tracks-container {
+    width: 100%;
+}
+
+.trackDesc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.shell {
+    height: 30px;
+    margin-right: 10%;
+    margin-left: 20%;
+}
+
+.shell-and-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+@media only screen and (max-width: 769px) {
+    .schedule-button-container-mobile {
+        display: flex;
+    }
+    .schedule-button-container {
+        display: none;
+    }
+    .schedule-button-container-mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+    .schedule-button-container-mobile .submit-button {
+        width: 30%;
+    }
+}
