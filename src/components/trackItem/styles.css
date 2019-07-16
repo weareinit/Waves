@@ -1,6 +1,6 @@
 .track-card-container {
-    width: 33.33333%;
-    max-width: 330px;
+    width: 45%;
+    max-width: 500px;
     height: auto;
     padding: 5% 4%;
 }
@@ -12,7 +12,7 @@
 
 .track-card-item-description {
     text-align: center;
-    margin: 0 0 12.555px;
+    margin: 0 0 25px;
 }
 
 .track-icon {
@@ -30,11 +30,14 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-left: 6%;
 }
 
 .shell-and-info.li {
     list-style-image: url("../../assets/waves/shell.svg");
+}
+
+#tech-detail-container {
+    padding: 0 20%;
 }
 
 @media only screen and (max-width: 768px) {

@@ -6,6 +6,9 @@
     overflow-x: hidden;
     box-sizing: border-box;
     color: white;
+}
+
+.landing-gradient {
     background: var(--shell-gradient);
 }
 
@@ -18,6 +21,8 @@
 @media only screen and (max-width: 769px) {
     .landing-button-wrapper {
         width: 30%;
+        max-width: unset;
+        min-width: unset;
     }
 }
 

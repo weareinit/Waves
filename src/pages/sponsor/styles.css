@@ -9,17 +9,6 @@
     color: white;
 }
 
-.sponsor-page-section {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-sizing: border-box;
-    padding: 10%;
-    min-height: 100vh;
-}
-
 .sponsor-page-section h1 {
     text-align: center;
     width: 100%;
@@ -36,9 +25,11 @@
 }
 
 .main-container {
-    width: 60%;
-    align-self: flex-start;
+    height: 100%;
+    width: 100%;
     z-index: 1;
+    padding: 10%;
+    text-align: left;
 }
 
 #main-message {
@@ -59,21 +50,9 @@
 }
 
 .what-section {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
+    width: 60%;
     text-align: left;
-}
-
-.what-section p {
-    width: 62%;
-}
-
-.what-section h1 {
-    text-align: left;
-    width: 62%;
+    align-self: flex-end;
 }
 
 .why-cards-container {
@@ -106,6 +85,10 @@
     font-size: 100px;
 }
 
+.why-cards h3 {
+    margin: 10px;
+}
+
 .sponsor-stats {
     width: 100%;
     display: flex;
@@ -127,12 +110,12 @@
     text-align: left;
     width: 40%;
     max-width: 100%;
-    min-height: 300;
+    min-height: 250px;
     height: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 5%;
+    justify-content: flex-start;
+    margin: 2%;
 }
 
 .sponsor-stats-item p {
@@ -222,6 +205,9 @@
 }
 
 @media only screen and (max-width: 769px) {
+    .what-section {
+        width: 100%;
+    }
     .sponsor-logo-card {
         width: 25%;
         margin: 2%;
@@ -249,7 +235,10 @@
         margin: 5% 0;
     }
     .main-container {
-        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
     .main-container p {
         width: 100%;

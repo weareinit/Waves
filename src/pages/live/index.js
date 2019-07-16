@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { AnimatedWaves } from '../../components/animatedWaves'
+import { AnimatedWaves } from '../../components'
 import './styles.css'
 class Live extends Component {
 

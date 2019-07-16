@@ -1,5 +1,5 @@
 /**
- * side "bubble" menu clickables
+ * side "bubble" menu 
  * ------------------------------
  * @author Jehf K D. (@jehfkemsy)
  *

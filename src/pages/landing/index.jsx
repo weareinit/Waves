@@ -1,11 +1,11 @@
 /**
  * Landing page
  * ------------------------------
- * @author Jehf K D. (@jehfkemsy),
+ * @author Jehf K D. (@jehfkemsy), ....
  */
 
-import React, { Component } from "react";
-import { MLHBadge, ScrollMenu, AnimatedWaves, Footer } from "../../components";
+import React, { Component, Fragment } from "react";
+import { MLHBadge, ScrollMenu, Footer } from "../../components";
 import "./styles.css";
 
 import Schedule from "./schedule";
@@ -17,11 +17,6 @@ import Info from "./info";
 import Main from "./main";
 
 export default class Landing extends Component {
-  constructor(props) {
-    super(props);
-    this.handleRegisterClick = this.handleRegisterClick.bind(this);
-    this.handleSponsorClick = this.handleSponsorClick.bind(this);
-  }
   handleRegisterClick = () => this.props.history.push("/auth");
   handleSponsorClick = () => this.props.history.push("/sponsor");
 
@@ -30,20 +25,22 @@ export default class Landing extends Component {
       <div className="landing-wrapper">
         <MLHBadge />
         <ScrollMenu>
-          <AnimatedWaves>
+          <div className = "scroll">
             <Main
               handleSponsorClick={this.handleSponsorClick}
               handleRegisterClick={this.handleRegisterClick}
             />
-          </AnimatedWaves>
-          <Info />
-          <Tracks />
-          <Schedule />
-          <Faqs />
-          <Supporters />
-          <Organizers />
+            <div className="landing-gradient">
+              <Info />
+              <Tracks />
+              <Schedule />
+              <Faqs />
+              <Supporters />
+              <Organizers />
+              <Footer showSocials={false} />
+            </div>
+          </div>
         </ScrollMenu>
-        <Footer showSocials={false} />
       </div>
     );
   }

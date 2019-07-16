@@ -7,8 +7,8 @@ const Info = () => {
           <h1 >What is ShellHacks?</h1>
           <p className="landing-section-paragraph">
             ShellHacks is an upcoming 36-hour hackathon at Florida International
-            University (FIU), taking place the weekend of Friday, September 29
-            to Sunday, October 1st.
+            University (FIU), taking place the weekend of Friday, September 20th
+            to Sunday 22nd.
             <br />
             <br />
             Our mission is to provide students with the opportunity to learn
