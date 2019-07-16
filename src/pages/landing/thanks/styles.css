@@ -29,6 +29,7 @@
     text-decoration: none;
     color: white !important;
     width: 30%;
+    margin: 2%;
 }
 
 @media only screen and (max-width: 769px) {
@@ -44,5 +45,8 @@
         justify-content: center;
         flex-wrap: wrap;
         align-items: center;
+    }
+    .sites-container a {
+        width: 40%;
     }
 }
