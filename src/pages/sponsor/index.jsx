@@ -7,7 +7,12 @@ import {
   faStore,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Footer, ZoomableImg, AnimatedWaves } from "../../components";
+import {
+  Footer,
+  ZoomableImg,
+  AnimatedWaves,
+  ScrollMenu,
+} from "../../components";
 import Card from "./card";
 
 class Sponsor extends Component {
@@ -220,96 +225,97 @@ class Sponsor extends Component {
     return (
       <div className="sponsor-page-container">
         {/* main section*/}
+        <ScrollMenu>
+          <section name="main">
+            <AnimatedWaves>
+              {/* <div className="sponsor-page-section"> */}
+              <div className="main-container">
+                <h1 id="main-message"> {"MAKE A SPLASH AT SHELLHACKS"}</h1>
+                <p>{"Florida's Largest Hackathon"}</p>
+              </div>
+              {/* </div> */}
+            </AnimatedWaves>
+          </section>
 
-        <section>
-          <AnimatedWaves>
-            {/* <div className="sponsor-page-section"> */}
-            <div className="main-container">
-              <h1 id="main-message"> {"MAKE A SPLASH AT SHELLHACKS"}</h1>
-              <p>{"Florida's Largest Hackathon"}</p>
-            </div>
-            {/* </div> */}
-          </AnimatedWaves>
-        </section>
-
-        {/*About ShellHacks*/}
-        <div style={{ background: "var(--shell-gradient)" }}>
-          <section>
-            <div className="what-section">
-              <h1> What is ShellHacks ? </h1>
-              <p className="landing-section-paragraph">
-                ShellHacks is an upcoming 36 - hour hackathon at Florida
-                International University(FIU), taking place the weekend of
-                Friday, September 29 to Sunday, October 1 st. <br /> <br /> Our
-                mission is to provide students with the opportunity to learn
-                about new technologies, create innovative projects, and share
-                their work with the community!
-              </p>
-            </div>
-          </section>
-          <section>
-            {/*About ShellHacks*/}
-            <div className="why-cards-container">
-              <h1> Why ShellHacks ? </h1>
-              {why.map((item, i) => (
-                <this.WhyCard {...item} id={i} />
-              ))}
-            </div>
-          </section>
-          <section>
-            {/*Statictics*/}
-            <div className="sponsor-stats">
-              <h1> Statistics </h1>
-              {stats.map((item, i) => {
-                let p = i % 2;
-                return <this.StatItem {...item} id={i} position={p} />;
-              })}
-            </div>
-          </section>
-          <section>
-            {/*Past Sponsors*/}
-            <div className="sponsors-partners ">
-              <h1>Previous Sponsors and Partners</h1>
-              <div className="sponsor-card-scroll-container ss-content">
-                {sponsorLogo.map(item => (
-                  <Card {...item} />
+          {/*About ShellHacks*/}
+          <div style={{ background: "var(--shell-gradient)" }}>
+            <section name="about us">
+              <div className="what-section">
+                <h1> What is ShellHacks ? </h1>
+                <p className="landing-section-paragraph">
+                  ShellHacks is an upcoming 36 - hour hackathon at Florida
+                  International University(FIU), taking place the weekend of
+                  Friday, September 29 to Sunday, October 1 st. <br /> <br />{" "}
+                  Our mission is to provide students with the opportunity to
+                  learn about new technologies, create innovative projects, and
+                  share their work with the community!
+                </p>
+              </div>
+            </section>
+            <section name="why us">
+              {/*About ShellHacks*/}
+              <div className="why-cards-container">
+                <h1> Why ShellHacks ? </h1>
+                {why.map((item, i) => (
+                  <this.WhyCard {...item} id={i} />
                 ))}
               </div>
-            </div>
-          </section>
-          <section>
-            {/*Media*/}
-            <div className="media-container">
-              <h1> Media </h1>
-              <Player
-                playsInline
-                poster="https://d14z5zgripclfw.cloudfront.net/account119-i107/video/19/thumb720p_sintel-2048-stereo-1536752469.png"
-                src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
-              />
-              {images.map(item => (
-                <div className="past-images">
-                  <ZoomableImg imageLink={item} />
+            </section>
+            <section name="statistics">
+              {/*Statictics*/}
+              <div className="sponsor-stats">
+                <h1> Statistics </h1>
+                {stats.map((item, i) => {
+                  let p = i % 2;
+                  return <this.StatItem {...item} id={i} position={p} />;
+                })}
+              </div>
+            </section>
+            <section name="sponsors">
+              {/*Past Sponsors*/}
+              <div className="sponsors-partners ">
+                <h1>Previous Sponsors and Partners</h1>
+                <div className="sponsor-card-scroll-container ss-content">
+                  {sponsorLogo.map(item => (
+                    <Card {...item} />
+                  ))}
                 </div>
-              ))}
-            </div>
-          </section>
-          <div id="closing-message">
-            <p
-              style={{
-                textAlign: "center",
-              }}
-            >
-              Interested in working with us? shoot us an email at{" "}
-              <a
-                className="landing-section-paragraph"
-                href="mailto:upe@fiu.edu"
+              </div>
+            </section>
+            <section name="media">
+              {/*Media*/}
+              <div className="media-container">
+                <h1> Media </h1>
+                <Player
+                  playsInline
+                  poster="https://d14z5zgripclfw.cloudfront.net/account119-i107/video/19/thumb720p_sintel-2048-stereo-1536752469.png"
+                  src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+                />
+                {images.map(item => (
+                  <div className="past-images">
+                    <ZoomableImg imageLink={item} />
+                  </div>
+                ))}
+              </div>
+            </section>
+            <div id="closing-message" name="contact">
+              <p
+                style={{
+                  textAlign: "center",
+                }}
               >
-                upe@ﬁu.edu
-              </a>
-            </p>
+                Interested in working with us? shoot us an email at{" "}
+                <a
+                  className="landing-section-paragraph"
+                  href="mailto:upe@fiu.edu"
+                >
+                  upe@ﬁu.edu
+                </a>
+              </p>
+            </div>
+            <Footer />
           </div>
-          <Footer />
-        </div>
+        </ScrollMenu>
       </div>
     );
   }
