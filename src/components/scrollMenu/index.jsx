@@ -25,7 +25,7 @@ class ScrollMenu extends React.Component {
     scroller.scrollTo("scroll-to-element", {
       duration: 800,
       delay: 0,
-      smooth: "easeInOutQuart"
+      smooth: "easeInOutQuart",
     });
   }
 
@@ -39,7 +39,7 @@ class ScrollMenu extends React.Component {
       scroller.scrollTo("scroll-container", {
         duration: 800,
         delay: 0,
-        smooth: "easeInOutQuart"
+        smooth: "easeInOutQuart",
       });
     });
 
@@ -48,7 +48,7 @@ class ScrollMenu extends React.Component {
         duration: 800,
         delay: 0,
         smooth: "easeInOutQuart",
-        containerId: "scroll-container"
+        containerId: "scroll-container",
       })
     );
   }
@@ -57,9 +57,10 @@ class ScrollMenu extends React.Component {
     Events.scrollEvent.remove("end");
   }
   render() {
+    console.log(this.props);
     return (
       <div className="scroll-container">
-        <Options />
+        <Options options={this.props.options} />
         {this.props.children}
       </div>
     );
@@ -67,6 +68,6 @@ class ScrollMenu extends React.Component {
 }
 //type checking
 ScrollMenu.propTypes = {
-  children: PropTypes.elementType.isRequired
+  children: PropTypes.elementType.isRequired,
 };
 export { ScrollMenu };

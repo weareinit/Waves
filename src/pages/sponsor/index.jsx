@@ -222,10 +222,20 @@ class Sponsor extends Component {
       },
     ];
 
+    const menuOptions = [
+      { title: "Landing", location: "main" },
+      { title: "About Us", location: "about" },
+      { title: "Why Us", location: "why" },
+      { title: "Statistics", location: "statistic" },
+      { title: "Sponsors", location: "sponsor" },
+      { title: "Media", location: "media" },
+      { title: "Contact", location: "contact" },
+    ];
+
     return (
       <div className="sponsor-page-container">
         {/* main section*/}
-        <ScrollMenu>
+        <ScrollMenu options={menuOptions}>
           <section name="main">
             <AnimatedWaves>
               {/* <div className="sponsor-page-section"> */}
@@ -239,7 +249,7 @@ class Sponsor extends Component {
 
           {/*About ShellHacks*/}
           <div style={{ background: "var(--shell-gradient)" }}>
-            <section name="about us">
+            <section name="about">
               <div className="what-section">
                 <h1> What is ShellHacks ? </h1>
                 <p className="landing-section-paragraph">
@@ -252,7 +262,7 @@ class Sponsor extends Component {
                 </p>
               </div>
             </section>
-            <section name="why us">
+            <section name="why">
               {/*About ShellHacks*/}
               <div className="why-cards-container">
                 <h1> Why ShellHacks ? </h1>
@@ -261,7 +271,7 @@ class Sponsor extends Component {
                 ))}
               </div>
             </section>
-            <section name="statistics">
+            <section name="statistic">
               {/*Statictics*/}
               <div className="sponsor-stats">
                 <h1> Statistics </h1>
@@ -271,10 +281,10 @@ class Sponsor extends Component {
                 })}
               </div>
             </section>
-            <section name="sponsors">
+            <section name="sponsor">
               {/*Past Sponsors*/}
               <div className="sponsors-partners ">
-                <h1>Previous Sponsors and Partners</h1>
+                <h1>Sponsors and Partners</h1>
                 <div className="sponsor-card-scroll-container ss-content">
                   {sponsorLogo.map(item => (
                     <Card {...item} />
