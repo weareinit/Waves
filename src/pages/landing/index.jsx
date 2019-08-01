@@ -1,9 +1,6 @@
 /**
  * Landing page
- * ------------------------------
- * @author Jehf K D. (@jehfkemsy), ....
  */
-
 import React, { Component } from "react";
 import { MLHBadge, ScrollMenu, Footer } from "../../components";
 import "./styles.css";
@@ -17,7 +14,7 @@ import Info from "./info";
 import Main from "./main";
 
 export default class Landing extends Component {
-  handleRegisterClick = () => this.props.history.push("/auth");
+  handleRegisterClick = () => {window.open("https://dashboard.shellhacks.net");}
   handleSponsorClick = () => this.props.history.push("/sponsor");
 
   render() {

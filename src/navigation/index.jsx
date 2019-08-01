@@ -1,15 +1,17 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route,Switch } from "react-router-dom";
 
 import Landing from "../pages/landing";
-import Sponsor from "../pages/sponsor";
-import Live from "../pages/live";
+import P_404 from "../pages/p_404";
+// import Live from "../pages/live";
 
 const AppRouter = () => (
   <Router>
+    <Switch>
     <Route path="/" exact component={Landing} />
-    <Route path="/sponsor" component={Sponsor} />
-    <Route path="/live" component={Live} />
+    {/* <Route path="/live" component={Live} /> */}
+    <Route component={P_404} />
+    </Switch>
   </Router>
 );
 

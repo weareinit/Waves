@@ -20,7 +20,7 @@
 
 .submit-button:hover {
     cursor: pointer;
-    background: var(--shell-mid-brown);
+    background: var(--shell-light-pink);
 }
 
 .card-button h3,

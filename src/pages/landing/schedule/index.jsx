@@ -45,7 +45,7 @@ class Schedule extends Component {
     return (
       <section name="schedule">
         <div className="schedule-container">
-          <h1 className="landing-section-title">Tentative Schedule</h1>
+          <h1 className="landing-section-title">📅 Tentative Schedule</h1>
           {/* Desktop button switch */}
           <div className="schedule-button-container">
             <Button

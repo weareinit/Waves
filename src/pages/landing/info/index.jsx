@@ -4,7 +4,7 @@ const Info = () => {
   return (
     <section name="about">
       <div className="info-section-container">
-          <h1 >What is ShellHacks?</h1>
+          <h1 >🌊 The Wave is Here!</h1>
           <p className="landing-section-paragraph">
             ShellHacks is an upcoming 36-hour hackathon at Florida International
             University (FIU), taking place the weekend of Friday, September 20th

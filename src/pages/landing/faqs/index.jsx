@@ -10,7 +10,7 @@ class Faqs extends Component {
       <section name="faqs">
         <div className="faq-card-container">
           <h1 className="landing-section-title">
-            Frequently asked Questions (FAQs)
+          🙋 Frequently asked Questions (FAQs)
           </h1>
           {faqs.map((card, i) => {
             let props = {

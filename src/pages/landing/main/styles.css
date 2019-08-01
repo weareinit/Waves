@@ -9,16 +9,26 @@
 }
 
 #slogan {
-    margin-bottom: 12.555px;
+    margin: 0 0 12.55px;
     color: var(--shell-light-brown);
     line-height: 100%;
     font-size: 1.6em;
+    font-weight: 900;
+}
+
+.register-button {
+    font-family: "Montserrat", sans-serif;
+    line-height: 100%;
+    font-size: 1.6em;
+    font-weight: 900;
+    margin: 0;
 }
 
 .main-section-details-specifics {
     color: var(--shell-light-brown);
     font-size: 1.3em;
     line-height: 1.1em;
+    font-weight: 600;
 }
 
 .main-section-buttons-container {
@@ -31,8 +41,9 @@
 
 .main-section-buttons-container .submit-button {
     min-width: 30%;
-    max-width: 40%;
+    max-width: 300px;
     margin-bottom: 0;
+    padding: 20px;
 }
 
 @media only screen and (max-width: 768px) {

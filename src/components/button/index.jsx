@@ -14,8 +14,9 @@ const Button = ({
   action,
   styleId,
   extraStyles,
-  lableStyle,
-  type
+  labelStyle,
+  type,
+  strong,
 }) => {
   const buttonClicked = () => {
     if (action) action(id);
@@ -28,7 +29,9 @@ const Button = ({
       className={`submit-button ${extraStyles || ""}`}
       id={styleId || ""}
     >
-      <p className={lableStyle || ""}>{title}</p>
+      {(strong && <h1 className={labelStyle || ""}>{title}</h1>) || (
+        <p className={labelStyle || ""}>{title}</p>
+      )}
     </button>
   );
 };
@@ -39,7 +42,7 @@ Button.propTypes = {
   action: PropTypes.func,
   styleId: PropTypes.string,
   lableStyle: PropTypes.string,
-  type: PropTypes.string
+  type: PropTypes.string,
 };
 
 export { Button };
