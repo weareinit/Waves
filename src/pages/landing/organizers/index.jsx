@@ -15,7 +15,7 @@ class Organizers extends Component {
       <section name="organizers">
         <div className="thanks-conatainer">
           <h1 className="landing-section-title">
-            Thank you for &#10084; ShellHacks!
+            With &#10084; from ShellHacks
           </h1>
         </div>
         <div className="sites-container">
