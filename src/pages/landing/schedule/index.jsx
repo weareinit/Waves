@@ -52,19 +52,19 @@ class Schedule extends Component {
               title="Friday, Sept 20"
               action={this.changeDataSource}
               id={1}
-              extraStyles="landing-button-wrapper"
+            extraStyles={`landing-button-wrapper ${this.state.dataSource===1 && "selected-button"}`}
             />
             <Button
-              title="Saturday, Sept 20"
+              title="Saturday, Sept 21"
               action={this.changeDataSource}
               id={2}
-              extraStyles="landing-button-wrapper"
+              extraStyles={`landing-button-wrapper ${this.state.dataSource===2 && "selected-button"}`}
             />
             <Button
-              title="Sunday, Sept 20"
+              title="Sunday, Sept 22"
               action={this.changeDataSource}
               id={3}
-              extraStyles="landing-button-wrapper"
+              extraStyles={`landing-button-wrapper ${this.state.dataSource===3 && "selected-button"}`}
             />
           </div>
           {/* Mobile button switch */}
@@ -73,19 +73,19 @@ class Schedule extends Component {
               title="Sept 20"
               action={this.changeDataSource}
               id={1}
-              extraStyles="landing-button-wrapper"
+              extraStyles={`landing-button-wrapper ${this.state.dataSource===1 && "selected-button"}`}
             />
+            <Button
+              title="Sept 21"
+              action={this.changeDataSource}
+              id={2}
+              extraStyles={`landing-button-wrapper ${this.state.dataSource===2 && "selected-button"}`}            
+              />
             <Button
               title="Sept 22"
               action={this.changeDataSource}
-              id={2}
-              extraStyles="landing-button-wrapper"
-            />
-            <Button
-              title="Sept 23"
-              action={this.changeDataSource}
               id={3}
-              extraStyles="landing-button-wrapper"
+              extraStyles={`landing-button-wrapper ${this.state.dataSource===3 && "selected-button"}`}
             />
           </div>
 

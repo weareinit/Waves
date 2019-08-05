@@ -5,6 +5,10 @@
     justify-content: space-between;
 }
 
+.selected-button {
+    background-color: #ff1d8e;
+}
+
 .schedule-button-container-mobile {
     display: none;
 }
@@ -25,7 +29,8 @@
 }
 
 .schedule-container {
-    width: 100%;
+    width: 70%;
+    margin-right: 30%;
 }
 
 .faqCardContainer {
@@ -56,6 +61,7 @@
     justify-content: flex-start;
 }
 
+
 @media only screen and (max-width: 769px) {
     .schedule-button-container-mobile {
         display: flex;
@@ -69,5 +75,29 @@
     }
     .schedule-button-container-mobile .submit-button {
         width: 30%;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .schedule-button-container-mobile {
+        display: flex;
+    }
+    .schedule-button-container {
+        display: none;
+    }
+    .schedule-button-container-mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+    .schedule-button-container-mobile .submit-button {
+        width: 30%;
+    }
+    .landing-button-wrapper {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .schedule-container{
+        margin: 0%;
+        width: 100%;
     }
 }
