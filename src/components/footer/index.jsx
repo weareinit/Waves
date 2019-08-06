@@ -1,7 +1,5 @@
 /**
  * Main site footer
- * ------------------------------
- * @author Jehf K D. (@jehfkemsy)
  */
 
 import React, { Component } from "react";
@@ -19,9 +17,10 @@ import "./styles.css";
 
 class Footer extends Component {
   render() {
-    return (
+    return (<>
+
       <div className="footer-container">
-        <div className="footer-content">
+        {/* <div className="footer-content">
           <div style={this.props.showSocials ? {} : { display: "none" }}>
             <span className="footer-social-container">
               <a
@@ -127,11 +126,13 @@ class Footer extends Component {
               by the ShellHacks Team
             </>
           </p>
-        </div>
+        </div> */}
       </div>
+    </>
     );
   }
 }
+
 
 Footer.propTypes = {
   showSocials: PropTypes.bool

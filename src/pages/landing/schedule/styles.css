@@ -30,7 +30,7 @@
 
 .schedule-container {
     width: 73%;
-    align-self: flex-end;
+    align-self: flex-start;
 }
 
 .faqCardContainer {
@@ -63,16 +63,24 @@
 
 .octopus img{
     position: absolute;
-    width: 400px;
+    width: 350px;
+    margin-top: 800px;
     display: block;
     left: 0px;
-    margin-top: 300px;
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     filter: FlipH;
     -ms-filter: "FlipH";
+}
+
+.manatee img{
+    position: absolute;
+    width: 550px;
+    margin-top: 450px;
+    display: block;
+    right: 100px;
 }
 
 @media only screen and (max-width: 769px) {

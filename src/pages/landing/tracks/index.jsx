@@ -38,6 +38,32 @@ const Tracks = () => {
           to turn to some outside inspiration.
         </p>
         <br/>
+      
+      <div className="fish5">
+        <img src={require(`../../../assets/animals/Pink_Fish.svg`)}></img>
+      </div>
+
+      <div className="fish6">
+        <img src={require(`../../../assets/animals/Fish.svg`)}></img>
+      </div>
+
+      <div className="fish7">
+        <img src={require(`../../../assets/animals/Fish.svg`)}></img>
+      </div>
+
+      <div className="fish8">
+        <img src={require(`../../../assets/animals/Pink_Fish.svg`)}></img>
+      </div>
+        
+
+      <div className="fish3">
+        <img src={require(`../../../assets/animals/Pink_Fish.svg`)}></img>
+      </div>
+
+      <div className="fish4">
+        <img src={require(`../../../assets/animals/Fish.svg`)}></img>
+      </div>
+
         <div className="track-items-container">
           {data.map((item, i) => (
             <TrackItem key={i} {...item} icon={getIcon(item.id)} />
