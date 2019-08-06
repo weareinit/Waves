@@ -3,6 +3,14 @@ import "./styles.css"
 const Info = () => {
   return (
     <section name="about">
+      <div className="pink-dolphin">
+        <img src={require(`../../../assets/animals/Pink_Dolphin.svg`)}></img>
+      </div>
+
+      <div className="blue-dolphin">
+        <img src={require(`../../../assets/animals/Blue_Dolphin.svg`)}></img>
+      </div>
+
       <div className="info-section-container">
           <h1 >🌊 The Wave is Here!</h1>
           <p className="landing-section-paragraph">
@@ -16,7 +24,7 @@ const Info = () => {
             work with the community!
           </p>
         </div>
-     
+
     </section>
   );
 };

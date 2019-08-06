@@ -4,6 +4,21 @@
     align-self: flex-end;
 }
 
+.pink-dolphin{
+    position: absolute;
+    margin: 100px;
+    width: 250px;
+    display: block;
+    left: 0px;
+}
+
+.blue-dolphin{
+    position: absolute;
+    width: 250px;
+    display: block;
+    left: 300px;
+}
+
 @media only screen and (max-width: 568px) {
     .info-section-container {
         width: 100%;

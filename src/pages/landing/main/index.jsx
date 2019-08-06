@@ -17,8 +17,8 @@ const Main = ({ handleRegisterClick}) => {
               September 20-22, 2019
               <br />
               Florida International University
-              {/* <br />
-              Kovens Conference Center */}
+              <br />
+              Kovens Conference Center 
             </p>
           </div>
           <div className="main-section-buttons-container ">

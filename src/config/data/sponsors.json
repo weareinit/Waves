@@ -9,7 +9,7 @@
         "name": "AutoNation",
         "tier": "temp",
         "url": "https://www.redfin.com",
-        "logo": "Autonation.svg"
+        "logo": "AutoNation.svg"
     },
     {
         "name": "Citrix",
@@ -39,7 +39,7 @@
         "name": "Dell",
         "tier": "temp",
         "url": "https://www.dell.com/en-us",
-        "logo": "Dell.jpeg"
+        "logo": "Dell.svg"
     },
     {
         "name": "Assurant",
@@ -51,7 +51,7 @@
         "name": "Redfin",
         "tier": "temp",
         "url": "https://www.redfin.com",
-        "logo": "Redfin.jpg"
+        "logo": "Redfin.svg"
     },
     {
         "name": "Sketch",
