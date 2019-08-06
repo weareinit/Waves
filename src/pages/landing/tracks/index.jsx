@@ -26,8 +26,7 @@ const Tracks = () => {
     default:
 
   }}
-  return (
-    <>
+  return (<>
     <section name="tracks">
       <div className="learning-tracks-container">
         <h1 className="landing-section-title">💡 Learning Tracks</h1>
@@ -38,10 +37,15 @@ const Tracks = () => {
           be able to learn what I want to learn in the time I have, it can help
           to turn to some outside inspiration.
         </p>
-        
         <br/>
-
-      <div className="fish">
+        <div className="track-items-container">
+          {data.map((item, i) => (
+            <TrackItem key={i} {...item} icon={getIcon(item.id)} />
+          ))}
+        </div>
+      </div>{" "}
+    </section>
+    <div className="fish">
         <img src={require(`../../../assets/animals/Fish.svg`)}></img>
       </div>
 
@@ -52,41 +56,6 @@ const Tracks = () => {
       <div className="fish2">
         <img src={require(`../../../assets/animals/Fish.svg`)}></img>
       </div>
-
-      <div className="fish3">
-        <img src={require(`../../../assets/animals/Pink_Fish.svg`)}></img>
-      </div>
-
-      <div className="fish4">
-        <img src={require(`../../../assets/animals/Fish.svg`)}></img>
-      </div>
-
-        <div className="track-items-container">
-          {data.map((item, i) => (
-            <TrackItem key={i} {...item} icon={getIcon(item.id)} />
-          ))}
-        </div>
-
-      
-      </div>{" "}
-    </section>
-    
-    <div className="fish5">
-        <img src={require(`../../../assets/animals/Pink_Fish.svg`)}></img>
-      </div>
-
-      <div className="fish6">
-        <img src={require(`../../../assets/animals/Fish.svg`)}></img>
-      </div>
-
-      <div className="fish7">
-        <img src={require(`../../../assets/animals/Fish.svg`)}></img>
-      </div>
-
-      <div className="fish8">
-        <img src={require(`../../../assets/animals/Pink_Fish.svg`)}></img>
-      </div>
-
     </>
   );
 };

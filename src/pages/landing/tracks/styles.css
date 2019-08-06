@@ -15,21 +15,34 @@
 }
 
 .fish img{
-    position: absolute;
+    
     width: 150px;
     display: block;
     right: 270px;
+    animation-duration: 17.5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    
+    
 }
 .fish1 img{
     width: 100px;
     display: block;
     right: 100px;
+    animation-duration: 17s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+   
 }
 .fish2 img{
-    position: absolute;
+    
     width: 80px;
     display: block;
     right: 150px;
+    animation-duration: 16.75s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    
 }
 .fish3 img{
     position: absolute;
@@ -78,8 +91,35 @@
 }
 
 
+
 @media only screen and (max-width: 400px) {
     .track-items-container {
         justify-content: center;
     }
 }
+@keyframes slidein {
+    0% {
+      margin-left: 100%;
+      
+    }
+    40% {
+        margin-left: -10%;
+       
+    }
+    50% {
+        margin-left: -10%;
+        transform: scaleX(1); 
+    }
+    51% {
+        margin-left: -10%;
+        transform: scaleX(-1); 
+    }
+    99% {
+        transform: scaleX(-1);
+        margin-left: 110%; 
+    }
+    100% {
+        transform: scaleX(1);
+        margin-left: 100%;
+    }
+  }

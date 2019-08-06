@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import { Card } from "../../../components";
-import "../styles.css";
+import "./styles.css";
 
 import faqs from "../../../config/data/faq";
 
 class Faqs extends Component {
   render() {
     return (
+      <>
       <section name="faqs">
         <div className="faq-card-container">
           <h1 className="landing-section-title">
@@ -23,7 +24,12 @@ class Faqs extends Component {
             return <Card key={i} {...props} />;
           })}
         </div>
+        
       </section>
+      < div className = "submarine-container">
+        <img src = {require(`../../../assets/animals/Submarine.svg`)}></img>
+      </div>
+      </>
     );
   }
 }
