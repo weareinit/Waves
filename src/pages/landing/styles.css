@@ -16,6 +16,8 @@
     width: 25vw;
     max-width: 350px;
     min-width: 150px;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 @media only screen and (max-width: 769px) {
@@ -26,8 +28,12 @@
     }
 }
 
-@media only screen and (max-width: 568px) {
+/* @media only screen and (max-width: 568px) {
     .landing-section-paragraph {
         text-align: left;
     }
-}
+    .landing-button-wrapper {
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+} */
