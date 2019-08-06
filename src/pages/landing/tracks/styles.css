@@ -15,15 +15,12 @@
 }
 
 .fish img{
-    
     width: 150px;
     display: block;
     right: 270px;
     animation-duration: 17.5s;
     animation-name: slidein;
-    animation-iteration-count: infinite;
-    
-    
+    animation-iteration-count: infinite;   
 }
 .fish1 img{
     width: 100px;

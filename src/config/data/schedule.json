@@ -5,81 +5,65 @@
     }],
     "friday": [{
             "time": "4:00-8:00PM",
-            "description": " Get the awesome ShellHacks 2018 T-shirt and a little something extra!"
+            "description": " Check-In"
         },
         {
-            "time": "3:00-8:00PM",
-            "description": " Get the awesome ShellHacks 2018 T-shirt and a little something extra!"
+            "time": "7:00-8:00PM",
+            "description": " Dinner!"
         },
         {
-            "time": "3:00-8:00PM",
-            "description": " Get the awesome ShellHacks 2018 T-shirt and a little something extra!"
+            "time": "8:00-9:00PM",
+            "description": " Opening Ceremony"
         },
         {
-            "time": "3:00-8:00PM",
-            "description": " Get the awesome ShellHacks 2018 T-shirt and a little something extra!"
+            "time": "9:00-10:30PM",
+            "description": " Sponsorship Fair"
         },
         {
-            "time": "3:00-8:00PM",
-            "description": " Hello Fri"
-        },
-        {
-            "time": "3:00-8:00PM",
-            "description": " Hello There"
+            "time": "10:30PM",
+            "description": " Hacking Begins!"
         }
     ],
     "saturday": [{
-            "time": "3:00-8:00PM",
-            "description": " Sat boi"
+            "time": "1:00AM",
+            "description": " Midnight Snack ++"
+        },
+        {    
+            "time": "8:00AM-9:00AM",
+            "description": " Breakfast"
         },
         {
-            "time": "3:00-8:00PM",
-            "description": " Get the awesome ShellHacks 2018 T-shirt and a little something extra!"
+            "time": "1:00PM-2:00PM",
+            "description": " Lunch"
         },
         {
-            "time": "3:00-8:00PM",
-            "description": " Hello There"
+            "time": "5:00PM",
+            "description": " Snack"
         },
         {
-            "time": "3:00-8:00PM",
-            "description": " Get the awesome ShellHacks 2018 T-shirt and a little something extra!"
-        },
-        {
-            "time": "3:00-8:00PM",
-            "description": " sat There"
-        },
-        {
-            "time": "3:00-8:00PM",
-            "description": " Get the awesome ShellHacks 2018 T-shirt and a little something extra!"
-        },
-        {
-            "time": "3:00-8:00PM",
-            "description": " Hello There"
+            "time": "8:00-9:00PM",
+            "description": " Dinner"
         }
     ],
     "sunday": [{
-            "time": "3:00-8:00PM",
-            "description": " sunday There"
+            "time": "9:00AM",
+            "description": " Hacking Ends"
         },
         {
-            "time": "3:00-8:00PM",
-            "description": " Hello  sunday"
+            "time": "10:00-12:30PM",
+            "description": " Demo Time!"
         },
         {
-            "time": "3:00-8:00PM",
-            "description": " Hello There"
+            "time": "12:30-1:00PM",
+            "description": " Judges Deliberation"
         },
         {
-            "time": "3:00-8:00PM",
-            "description": " Hello There"
+            "time": "1:00-2:00PM",
+            "description": " Closing Ceremony"
         },
         {
-            "time": "3:00-8:00PM",
-            "description": " Hello There"
-        },
-        {
-            "time": "3:00-8:00PM",
-            "description": " Hello There"
+            "time": "2:30PM",
+            "description": " ShellHacks Ends!"
         },
         {
             "time": "3:00-8:00PM",
