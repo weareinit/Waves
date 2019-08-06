@@ -44,6 +44,11 @@ class Schedule extends Component {
 
     return (
       <section name="schedule">
+
+        <div className="octopus">
+          <img src={require(`../../../assets/animals/Octopus.svg`)}></img>
+        </div>
+        
         <div className="schedule-container">
           <h1 className="landing-section-title">📅 Tentative Schedule</h1>
           {/* Desktop button switch */}
@@ -92,7 +97,11 @@ class Schedule extends Component {
           {data.map((item, id) => ScheduleItem(item, id))}
         </div>
       </section>
+
+
     );
+
+    
   }
 }
 

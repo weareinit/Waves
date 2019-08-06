@@ -78,6 +78,10 @@ const Supporters = () => {
           </p>
         </div>
 
+      <div className="jellyfish">
+        <img src={require(`../../../assets/animals/Shellyfish.svg`)}></img>
+      </div>
+
         <div className="organizers-container">
           <h1 className="landing-section-title">Cohost</h1>
           <a

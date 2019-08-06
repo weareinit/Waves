@@ -29,8 +29,8 @@
 }
 
 .schedule-container {
-    width: 70%;
-    margin-right: 30%;
+    width: 73%;
+    align-self: flex-end;
 }
 
 .faqCardContainer {
@@ -61,6 +61,19 @@
     justify-content: flex-start;
 }
 
+.octopus img{
+    position: absolute;
+    width: 400px;
+    display: block;
+    left: 0px;
+    margin-top: 300px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
 
 @media only screen and (max-width: 769px) {
     .schedule-button-container-mobile {

@@ -31,6 +31,52 @@
     display: block;
     right: 150px;
 }
+.fish3 img{
+    position: absolute;
+    width: 150px;
+    display: block;
+    left: 150px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    margin-top: 650px;
+}
+.fish4 img{
+    position: absolute;
+    width: 150px;
+    display: block;
+    right: 250px;
+    margin-top: 1400px;
+}
+
+.fish5 img{
+    position: absolute;
+    width: 150px;
+    display: block;
+    right: 270px;
+}
+.fish6 img{
+    width: 100px;
+    display: block;
+    right: 50px;
+}
+.fish7 img{
+    position: absolute;
+    width: 80px;
+    display: block;
+    right: 100px;
+}
+
+.fish8 img{
+    width: 100px;
+    display: block;
+    right: 250px;
+    margin-top: 500;
+}
+
 
 @media only screen and (max-width: 400px) {
     .track-items-container {

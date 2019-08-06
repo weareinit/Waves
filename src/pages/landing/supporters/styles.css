@@ -72,6 +72,13 @@
     padding: 5px;
 }
 
+.jellyfish img{
+    position: absolute;
+    width: 200px;
+    display: block;
+    right: 270px;
+}
+
 @media only screen and (max-width: 769px) {
     .logo-container {
         width: 80%;
