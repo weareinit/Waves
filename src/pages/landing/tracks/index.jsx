@@ -37,6 +37,21 @@ const Tracks = () => {
           be able to learn what I want to learn in the time I have, it can help
           to turn to some outside inspiration.
         </p>
+        
+        <br/>
+
+        <div className="fish">
+        <img src={require(`../../../assets/animals/Fish.svg`)}></img>
+      </div>
+
+      <div className="fish1">
+        <img src={require(`../../../assets/animals/Fish.svg`)}></img>
+      </div>
+
+      <div className="fish2">
+        <img src={require(`../../../assets/animals/Fish.svg`)}></img>
+      </div>
+
         <div className="track-items-container">
           {data.map((item, i) => (
             <TrackItem key={i} {...item} icon={getIcon(item.id)} />

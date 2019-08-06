@@ -4,9 +4,7 @@ import sponsors from "../../../config/data/sponsors";
 import organizerLogo from "../../../assets/logos/organizers/upe_named_white.png";
 
 const Supporters = () => {
-  let tempUrl =
-    "http://jarederickson.com/wp-content/uploads/2012/12/10_batman-1989-illustration-cartoon-logo.png";
-
+  
   let Logo = ({ logo, url, name, tier }) => {
     let logoClass;
     switch (tier) {
@@ -33,7 +31,7 @@ const Supporters = () => {
           style={{ width: "100%" }}
           className={`${tier}-img `}
           alt={name}
-          src={tempUrl}
+          src={require(`../../../assets/logos/sponsors/${logo}`)}
         />
       </a>
     );
