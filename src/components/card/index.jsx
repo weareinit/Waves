@@ -1,27 +1,30 @@
 /**
- * Reusable card template
- * ------------------------------
- * @author Jehf K D. (@jehfkemsy)
+ * Reusable card component
  */
 
-import React, { Component } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import PropTypes from "prop-types";
-import "./styles.css";
+import React, { Component } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faPlus,
+  faMinus
+} from "@fortawesome/free-solid-svg-icons"; //need to pre-load in app.js
+import PropTypes from 'prop-types'
+import './styles.css'
 
 class Card extends Component {
-  constructor(props) {
-    super(props);
+  constructor (props) {
+    super(props)
     this.state = {
-      clicked: false
-    };
+      clicked: false,
+
+    }
   }
 
   handleClick = () => {
-    this.setState({ clicked: !this.state.clicked });
-  };
+    this.setState({ clicked: !this.state.clicked })
+  }
 
-  render() {
+  render () {
     let {
       title,
       description,
@@ -29,29 +32,40 @@ class Card extends Component {
       content,
       styleClassName,
       activeClassName,
-      titleIcon
-    } = this.props;
-    let cardContent = description ? <p>{description}</p> : content;
-    let currenStyle = this.state.clicked ? activeClassName : styleClassName;
+      titleIcon,
+      descStyles
+    } = this.props
+    let cardContent = description ? (
+      <p style={descStyles}>{description}</p>
+    ) : (
+      content
+    )
+    let currenStyle = this.state.clicked ? activeClassName : styleClassName
 
     return (
-      <div className="card-container">
+      <div className='card-container'>
         <div
-          className={"card-button " + currenStyle}
+          className={'card-button ' + currenStyle}
           onClick={this.handleClick}
         >
-          {titleIcon && <FontAwesomeIcon icon={titleIcon} />}
+          <div style={{display:"flex"}}> 
+           {titleIcon && <FontAwesomeIcon icon={titleIcon} />}
+          <div>
           <h3>{title}</h3>
           <p>{date}</p>
+          </div>
+          </div>
+        <div>{this.state.clicked? <FontAwesomeIcon icon={faMinus} /> : <FontAwesomeIcon icon={faPlus} />}</div> 
         </div>
         <div
-          className="card-content"
-          style={this.state.clicked ? { display: "flex" } : { display: "none" }}
+          className='card-content'
+          style={this.state.clicked ? { display: 'flex' } : { display: 'none' }}
         >
           {cardContent}
         </div>
+
       </div>
-    );
+    )
   }
 }
 
@@ -62,6 +76,6 @@ Card.propTypes = {
   description: PropTypes.string,
   content: PropTypes.elementType,
   date: PropTypes.string
-};
+}
 
-export { Card };
+export { Card }
