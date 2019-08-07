@@ -81,6 +81,7 @@
     margin-top: 450px;
     display: block;
     right: 100px;
+    animation: bobbing-manatee 1s infinite alternate;
 }
 
 @media only screen and (max-width: 769px) {
@@ -120,5 +121,15 @@
     .schedule-container{
         margin: 0%;
         width: 100%;
+    }
+}
+
+
+@keyframes bobbing-manatee {
+    from{
+        transform: translateY(0px) rotate(-2deg);
+    }
+    to {
+        transform: translateY(-25px) rotate(2deg);
     }
 }
