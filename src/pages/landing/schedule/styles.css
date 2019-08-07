@@ -64,7 +64,7 @@
 .octopus img{
     position: absolute;
     width: 350px;
-    margin-top: 800px;
+    margin-top: -210px;
     display: block;
     left: 0px;
     -moz-transform: scaleX(-1);
