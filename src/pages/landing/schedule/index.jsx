@@ -44,9 +44,6 @@ class Schedule extends Component {
 
     return (
       <section name="schedule">
-        <div className="octopus">
-          <img src={require(`../../../assets/animals/Octopus.svg`)}></img>
-        </div>
 
         <div className="manatee">
           <img src={require(`../../../assets/animals/Manatee.svg`)}></img>
@@ -98,6 +95,10 @@ class Schedule extends Component {
           </div>
 
           {data.map((item, id) => ScheduleItem(item, id))}
+        </div>
+
+        <div className="octopus">
+          <img src={require(`../../../assets/animals/Octopus.svg`)}></img>
         </div>
 
         
