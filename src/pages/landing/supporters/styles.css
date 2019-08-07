@@ -60,6 +60,7 @@
 .temp-img {
     width: 33.333%;
     padding: 10px;
+    max-height: 160px;
 }
 
 .sponsor-img {
@@ -72,7 +73,7 @@
     padding: 5px;
 }
 
-.jellyfish img{
+.jellyfish img {
     position: absolute;
     width: 200px;
     display: block;

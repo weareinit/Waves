@@ -57,9 +57,6 @@
     .main-section-buttons-container {
         flex-direction: column;
     }
-    .main-section-buttons-container .submit-button {
-        width: 70%;
-    }
     .main-section-details-specific {
         font-size: 1.1em;
     }
@@ -70,7 +67,8 @@
 
 @media only screen and (max-width: 568px) {
     .main-section-buttons-container .submit-button {
-        max-width: 65%;
+        max-width: 85%;
+        font-size:14px;
     }
     .main-section-details-specifics {
         font-size: 16px;
