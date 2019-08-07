@@ -19,8 +19,26 @@
     left: 300px;
 }
 
+.blue-dolphin img, .pink-dolphin img {
+    animation: bobbing 1s infinite alternate;
+    position: relative;
+}
+
+.blue-dolphin img{
+    animation-delay: .5s;
+}
+
 @media only screen and (max-width: 568px) {
     .info-section-container {
         width: 100%;
+    }
+}
+
+@keyframes bobbing {
+    from{
+        bottom: 0px;
+    }
+    to {
+        bottom: 35px;
     }
 }

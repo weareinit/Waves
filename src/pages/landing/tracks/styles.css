@@ -17,17 +17,19 @@
 .fish img{
     width: 150px;
     display: block;
+    position: relative;
     right: 270px;
-    animation-duration: 17.5s;
-    animation-name: slidein;
+    animation-duration: 12s;
+    animation-name: slidein-fish-right;
     animation-iteration-count: infinite;   
 }
 .fish1 img{
     width: 100px;
     display: block;
+    position: relative;
     right: 100px;
-    animation-duration: 17s;
-    animation-name: slidein;
+    animation-duration: 14s;
+    animation-name: slidein-fish-right;
     animation-iteration-count: infinite;
    
 }
@@ -35,9 +37,10 @@
     
     width: 80px;
     display: block;
+    position: relative;
     right: 150px;
-    animation-duration: 16.75s;
-    animation-name: slidein;
+    animation-duration: 10s;
+    animation-name: slidein-fish-right;
     animation-iteration-count: infinite;
     
 }
@@ -46,13 +49,8 @@
     width: 150px;
     display: block;
     left: 150px;
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    filter: FlipH;
-    -ms-filter: "FlipH";
     margin-top: 650px;
+    animation: slidein-fish-right 10s infinite;
 }
 .fish4 img{
     position: absolute;
@@ -60,6 +58,7 @@
     display: block;
     right: 250px;
     margin-top: 1400px;
+    animation: slidein-fish-right 10s infinite;
 }
 
 .fish5 img{
@@ -67,24 +66,30 @@
     width: 150px;
     display: block;
     right: 270px;
+    animation: slidein-fish-right 9s infinite;
 }
 .fish6 img{
     width: 100px;
     display: block;
+    position: relative;
     right: 50px;
+    animation: slidein-fish-right 12s infinite;
 }
 .fish7 img{
     position: absolute;
     width: 80px;
     display: block;
     right: 100px;
+    animation: slidein-fish-right 10s infinite;
 }
 
 .fish8 img{
     width: 100px;
     display: block;
+    position: relative;
     right: 250px;
     margin-top: 500;
+    animation: slidein-fish-right 13s infinite;
 }
 
 
@@ -94,29 +99,39 @@
         justify-content: center;
     }
 }
-@keyframes slidein {
-    0% {
-      margin-left: 100%;
-      
-    }
-    40% {
-        margin-left: -10%;
-       
+
+@keyframes slidein-fish-right {
+    0%{
+        left: -300px;
+        transform: scaleX(-1);
     }
     50% {
-        margin-left: -10%;
-        transform: scaleX(1); 
-    }
-    51% {
-        margin-left: -10%;
-        transform: scaleX(-1); 
-    }
-    99% {
+        left: calc(100vw + 300px);
         transform: scaleX(-1);
-        margin-left: 110%; 
+    }
+    51%{
+        transform: scaleX(1);
     }
     100% {
+        left: -300px;
         transform: scaleX(1);
-        margin-left: 100%;
     }
-  }
+}
+
+@keyframes slidein-fish-left {
+    0%{
+        left: -300px;
+        transform: scaleX(1);
+    }
+    50% {
+        left: calc(100vw + 300px);
+        transform: scaleX(1);
+    }
+    51%{
+        transform: scaleX(-1);
+    }
+    100% {
+        left: -300px;
+        transform: scaleX(-1);
+    }
+}
