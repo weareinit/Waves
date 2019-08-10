@@ -19,7 +19,7 @@
     display: block;
     position: relative;
     right: 270px;
-    animation-duration: 12s;
+    animation-duration: 15s;
     animation-name: slidein-fish-right;
     animation-iteration-count: infinite;   
 }
@@ -28,7 +28,7 @@
     display: block;
     position: relative;
     right: 100px;
-    animation-duration: 14s;
+    animation-duration: 17s;
     animation-name: slidein-fish-right;
     animation-iteration-count: infinite;
    
@@ -39,7 +39,7 @@
     display: block;
     position: relative;
     right: 150px;
-    animation-duration: 10s;
+    animation-duration: 13s;
     animation-name: slidein-fish-right;
     animation-iteration-count: infinite;
     
@@ -50,7 +50,7 @@
     display: block;
     left: 150px;
     margin-top: 650px;
-    animation: slidein-fish-right 10s infinite;
+    animation: slidein-fish-right 32s infinite;
 }
 .fish4 img{
     position: absolute;
@@ -58,7 +58,7 @@
     display: block;
     right: 250px;
     margin-top: 1400px;
-    animation: slidein-fish-right 10s infinite;
+    animation: slidein-fish-right 13s infinite;
 }
 
 .fish5 img{
@@ -66,37 +66,44 @@
     width: 150px;
     display: block;
     right: 270px;
-    animation: slidein-fish-right 9s infinite;
+    animation: slidein-fish-right 18s infinite;
+    animation-timing-function: ease-in-out;
 }
 .fish6 img{
     width: 100px;
     display: block;
     position: relative;
     right: 50px;
-    animation: slidein-fish-right 12s infinite;
+    animation: slidein-fish-right 28s infinite;
 }
 .fish7 img{
     position: absolute;
     width: 80px;
     display: block;
     right: 100px;
-    animation: slidein-fish-right 10s infinite;
+    animation: slidein-fish-right 15s infinite;
 }
 
 .fish8 img{
     width: 100px;
     display: block;
-    position: relative;
+    position: absolute;
     right: 250px;
-    margin-top: 500;
-    animation: slidein-fish-right 13s infinite;
+    margin-top: 500px;
+    animation: slidein-fish-right 18s infinite;
 }
-
+ 
 
 
 @media only screen and (max-width: 400px) {
     .track-items-container {
         justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .track-card-container {
+          width: 100%;
     }
 }
 

@@ -3,8 +3,24 @@ import { Button, AnimatedWaves } from "../../../components";
 import "./styles.css";
 const Main = ({ handleRegisterClick}) => {
   return (
+  <div className="home-container"> 
+  <AnimatedWaves>
     <section name="home" id="home">
-      <AnimatedWaves>
+        <div className="beach-ball">
+          <img src={require(`../../../assets/waves/beachball.svg`)}></img>
+        </div>
+         <div className="seat-with-towels">
+          <img src={require(`../../../assets/waves/seat1.svg`)}></img>
+        </div>
+        <div className="sandals">
+          <img src={require(`../../../assets/waves/sandals.svg`)}></img>
+        </div>
+        <div className="small_rocks">
+          <img src={require(`../../../assets/waves/small_rocks.svg`)}></img>
+        </div>
+        <div className="starfish">
+          <img src={require(`../../../assets/waves/starfish.svg`)}></img>
+        </div>
         <div className="main-section-container">
           <div className="main-section-details-container">
             <img
@@ -25,8 +41,9 @@ const Main = ({ handleRegisterClick}) => {
             <Button title="Register Now!" action={handleRegisterClick} labelStyle="register-button" strong/>
           </div>
         </div>
-      </AnimatedWaves>
     </section>
+    </AnimatedWaves>
+  </div>
   );
 };
 

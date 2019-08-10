@@ -31,6 +31,32 @@
     width: 30%;
     margin: 2%;
 }
+@keyframes angler_fish-right {
+    0%{
+        left: -300px;
+        transform: scaleX(-1);
+    }
+    50% {
+        left: calc(100vw + 300px);
+        transform: scaleX(-1);
+    }
+    51%{
+        transform: scaleX(1);
+    }
+    100% {
+        left: -300px;
+        transform: scaleX(1);
+    }
+}
+
+.angler_fish img{
+    width: 100px;
+    display: block;
+    position: relative;
+    right: 100px;
+    animation: angler_fish-right 38s infinite;
+    animation-timing-function: ease-in-out;
+}
 
 @media only screen and (max-width: 769px) {
     .social-media-container {

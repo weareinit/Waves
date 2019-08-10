@@ -96,12 +96,9 @@ class Schedule extends Component {
 
           {data.map((item, id) => ScheduleItem(item, id))}
         </div>
-
         <div className="octopus">
           <img src={require(`../../../assets/animals/Octopus.svg`)}></img>
         </div>
-
-        
       </section>
 
 

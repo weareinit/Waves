@@ -16,7 +16,7 @@
     --line-height-large: 1.375em;
     --paragraph-height: 1.5em;
     /* Mobile */
-    --paragraph: 14px;
+    --paragraph: 1rem;
     --sub-heading: 1.4rem;
     --heading: 1.8rem;
     --heading-bg: 2rem;
@@ -118,4 +118,13 @@ p {
 
 .active-landing-card {
     background-color: var(--shell-light-pink);
+}
+
+.landing-section-title {
+    z-index: 1;
+    position: relative;
+}
+.landing-section-paragraph{
+    z-index: 1;
+    position: relative;
 }

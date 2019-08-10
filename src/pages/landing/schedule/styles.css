@@ -31,6 +31,7 @@
 .schedule-container {
     width: 73%;
     align-self: flex-start;
+    position: relative;
 }
 
 .faqCardContainer {
@@ -81,7 +82,7 @@
     margin-top: 450px;
     display: block;
     right: 100px;
-    animation: bobbing-manatee 1s infinite alternate;
+    animation: bobbing-manatee 2s infinite alternate;
 }
 
 @media only screen and (max-width: 769px) {
@@ -98,6 +99,15 @@
     .schedule-button-container-mobile .submit-button {
         width: 30%;
     }
+    .octopus{
+        display: none!important;
+    }
+    .manatee{
+        display: none!important;
+    }
+    .schedule-container {
+    width: 100%;
+}
 }
 
 @media only screen and (max-width: 568px) {

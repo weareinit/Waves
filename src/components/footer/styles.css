@@ -4,10 +4,6 @@
     width: 100%;
     height: 700px;
     background: center/cover no-repeat url("../../assets//theme/footer/footerBackground.svg");
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding: 0 3% 10px;
     background-size: cover;
 }
 
@@ -34,4 +30,22 @@
     text-decoration: none;
     color: var(--shell-mid-brown);
     display: inline-flex;
+}
+
+.scuba_diver{
+    width: 200px;
+    display: block;
+    left: 25%;
+    position: absolute;
+    margin-top: 400px;
+    animation: bouncy_scuba_diver 3s infinite alternate;
+}
+
+@keyframes bouncy_scuba_diver {
+    from{
+        transform: translateY(5px) rotate(-1deg);
+    }
+    to {
+        transform: translateY(-25px) rotate(1deg);
+    }
 }
