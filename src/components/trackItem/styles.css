@@ -3,6 +3,8 @@
     max-width: 500px;
     height: auto;
     padding: 5% 4%;
+    z-index: 1;
+    position: relative;
 }
 
 .track-card-container .tech-detail {

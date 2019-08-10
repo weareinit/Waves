@@ -20,6 +20,9 @@ class Footer extends Component {
     return (<>
 
       <div className="footer-container">
+        <div className="scuba_diver">
+          <img src={require("../../assets/waves/scuba_diver.svg")} />
+        </div>
         {/* <div className="footer-content">
           <div style={this.props.showSocials ? {} : { display: "none" }}>
             <span className="footer-social-container">
