@@ -1,13 +1,3 @@
-.landing-wrapper {
-  display: block;
-  width: 100vw;
-  height: 100%;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  box-sizing: border-box;
-  color: white;
-}
-
 .landing-gradient {
   background: var(--shell-gradient);
 }

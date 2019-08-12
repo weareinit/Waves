@@ -1,3 +1,8 @@
+.about-container
+{
+    position: relative;
+}
+
 .info-section-container {
   width: 60%;
   text-align: left;
@@ -29,15 +34,44 @@
   animation-delay: 0.5s;
 }
 
-@media only screen and (max-width: 568px) {
+@media only screen and (max-width: 900px) {
   .info-section-container {
     width: 100%;
   }
 
-  .blue-dolphin,
-  .pink-dolphin {
-    display: none;
+  .pink-dolphin
+  {
+      margin: unset;
+      left: 32vw;
+      transform: rotate(-10deg);
   }
+
+  .blue-dolphin
+  {
+      right: 32vw !important;
+      transform: rotate(20deg);
+  }
+
+  .blue-dolphin,.pink-dolphin
+  {
+      top: 0vw;
+      width: 20vw
+  }
+
+}
+
+@media only screen and (max-width: 1300px)
+{
+    .blue-dolphin
+    {
+        right: 58vw;
+        left: unset;
+    }
+
+    .pink-dolphin
+    {
+        z-index: 1;
+    }
 }
 
 @keyframes bobbing {

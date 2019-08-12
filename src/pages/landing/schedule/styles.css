@@ -64,8 +64,8 @@
 
 .octopus img{
     position: absolute;
-    width: 350px;
-    margin-top: -190px;
+    width: 24vw;
+    margin-top: -12%;
     display: block;
     left: 0px;
     -moz-transform: scaleX(-1);
@@ -98,9 +98,6 @@
     }
     .schedule-button-container-mobile .submit-button {
         width: 30%;
-    }
-    .octopus{
-        display: none!important;
     }
     .manatee{
         display: none!important;
