@@ -15,7 +15,7 @@
 
 .schedule-section-event {
     text-align: left;
-    margin: 25px 15px 50px;
+    margin: 0px 15px 15px;
 }
 
 .schedule-section-event-title {
@@ -65,7 +65,7 @@
 .octopus img{
     position: absolute;
     width: 350px;
-    margin-top: -210px;
+    margin-top: -190px;
     display: block;
     left: 0px;
     -moz-transform: scaleX(-1);
@@ -108,6 +108,10 @@
     .schedule-container {
     width: 100%;
 }
+}
+
+.submit-button p{
+    font-weight: 900;
 }
 
 @media only screen and (max-width: 568px) {

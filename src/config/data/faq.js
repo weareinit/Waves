@@ -21,7 +21,7 @@ const faqs = [
     title: <>Is there a theme?</>,
     description: (
       <>
-        Our theme focuses on diversity, and not just from an academicstandpoint.
+        Our theme focuses on diversity, and not just from an academic standpoint.
         Miami is a cultural melting pot full of people from all walks of life,
         with{" "}
         <a
@@ -84,10 +84,11 @@ const faqs = [
     )
   },
   {
-    title: <>Will there be Travel Reimbersement?</>,
+    title: <>Will there be travel reimbersement?</>,
     description: (
       <>
-        There will be travel reimbursement available with the following
+        We're currently working those details out! Come back later or checkout "Essentials" once details are finalized.
+        {/* There will be travel reimbursement available with the following
         stipulations:
         <br />
         <br />
@@ -108,7 +109,7 @@ const faqs = [
         later date, so{" "}
         <span style={{ fontWeight: "bold" }}>
           please keep hold of your receipts!
-        </span>
+        </span> */}
       </>
     )
   },

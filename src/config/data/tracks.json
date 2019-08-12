@@ -1,7 +1,7 @@
 [{
         "title": "Front-end",
         "id": "a",
-        "description": "Learn the technical and creative skills of User-Interfaces and User-Experience on web and mobile platforms",
+        "description": "Learn the frameworks needed to develop user interfaces on web and mobile platforms",
         "techs": [
             "HTML/CSS",
             "MongoDB",
@@ -11,7 +11,7 @@
     {
         "title": "Back-end",
         "id": "b",
-        "description": "Learn about the underlying systems that power the applications you interact with daily",
+        "description": "Learn about the underlying systems that power the applications you interact with everyday",
         "techs": [
             "HTML/CSS",
             "MongoDB",
@@ -21,7 +21,7 @@
     {
         "title": "Hardware",
         "id": "c",
-        "description": "Get down to the wire and learn about microcontrollers, IoT devices like the raspberry pi, and be creative with computers that can affect the physical world",
+        "description": "Get down to the metal and learn how to use microcontrollers to solve challenging problems",
         "techs": [
             "HTML/CSS",
             "MongoDB",
@@ -31,7 +31,7 @@
     {
         "title": "Data Science",
         "id": "d",
-        "description": "Experience first-hand the power of what AI and statistical analysis can achieve, build off of existing models, and understand the fundamental concepts of machine learning",
+        "description": "Experience the power of artificial intelligence and understand the fundamentals of machine learning",
         "techs": [
             "HTML/CSS",
             "MongoDB",
@@ -39,9 +39,9 @@
         ]
     },
     {
-        "title": "IT/Cybersecurity",
+        "title": "IT / Cybersecurity",
         "id": "e",
-        "description": "Become versed in the realm of cloud computing, traditional and datacenter-level scalable hosting, and grasp the wonders of hacking and cybersecurity",
+        "description": "Take on cloud computing and grasp the wonders of hacking and cybersecurity",
         "techs": [
             "HTML/CSS",
             "MongoDB",

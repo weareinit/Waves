@@ -16,9 +16,9 @@ const Main = ({ handleRegisterClick }) => {
           <div className="sandals">
             <img src={require(`../../../assets/waves/sandals.svg`)}></img>
           </div>
-          <div className="small_rocks">
+          {/* <div className="small_rocks">
             <img src={require(`../../../assets/waves/small_rocks.svg`)}></img>
-          </div>
+          </div> */}
           <div className="starfish">
             <img src={require(`../../../assets/waves/starfish.svg`)}></img>
           </div>

@@ -46,6 +46,10 @@
         }
     ],
     "sunday": [{
+            "time": "7:00AM -8:00AM",
+            "description": " Breakfast"
+        },
+        {
             "time": "9:00AM",
             "description": " Hacking Ends"
         },
@@ -63,11 +67,7 @@
         },
         {
             "time": "2:30PM",
-            "description": " ShellHacks Ends!"
-        },
-        {
-            "time": "3:00-8:00PM",
-            "description": " Hello There"
+            "description": " ShellHacks Ends & Farewell Lunch!"
         }
     ]
 }
