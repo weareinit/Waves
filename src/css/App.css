@@ -99,6 +99,11 @@ p {
     font-weight: 500;
 }
 
+#root
+{
+    overflow-x: hidden;
+}
+
 .hover-effect:hover {
     background-color: var(--shell-dark-pink);
     color: white;
