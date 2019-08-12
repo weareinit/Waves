@@ -32,24 +32,26 @@ export default class Landing extends Component {
     ];
 
     return (
-      <ScrollMenu options={menuOptions}>
-        <MLHBadge />
-        <div className="scroll">
-          <Main
-            handleSponsorClick={this.handleSponsorClick}
-            handleRegisterClick={this.handleRegisterClick}
-          />
-          <div className="landing-gradient">
-            <Info />
-            <Tracks />
-            <Schedule />
-            <Faqs />
-            <Supporters />
-            <Organizers />
-            <Footer showSocials={false} />
+      <div className="scroll-container">
+        <ScrollMenu options={menuOptions}>
+          <MLHBadge />
+          <div className="scroll">
+            <Main
+              handleSponsorClick={this.handleSponsorClick}
+              handleRegisterClick={this.handleRegisterClick}
+            />
+            <div className="landing-gradient">
+              <Info />
+              <Tracks />
+              <Schedule />
+              <Faqs />
+              <Supporters />
+              <Organizers />
+              <Footer showSocials={false} />
+            </div>
           </div>
-        </div>
-      </ScrollMenu>
+        </ScrollMenu>
+      </div>
     );
   }
 }
