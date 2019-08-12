@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css"
 const Info = () => {
   return (
-    <section name="about">
+    <section name="about" className="about-container">
       <div className="pink-dolphin">
         <img src={require(`../../../assets/animals/Pink_Dolphin.svg`)}></img>
       </div>
