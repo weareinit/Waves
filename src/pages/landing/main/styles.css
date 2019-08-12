@@ -1,171 +1,184 @@
-.home-container{
-    height:110vh;
+.home-container {
+  height: 110vh;
 }
 
-#wave-background-objects{
-height:110vh;
-
+#wave-background-objects {
+  height: 110vh;
 }
 
 .main-section-container {
-    width: 90vw;
-    max-width: 600px;
-    z-index: 1;
+  width: 90vw;
+  max-width: 600px;
+  z-index: 1;
 }
 
 .main-section-details-container {
-    margin: 25px 0;
+  margin: 25px 0;
 }
 
 #slogan {
-    margin: 0 0 12.55px;
-    color: var(--shell-light-brown);
-    line-height: 100%;
-    font-size: 1.6em;
-    font-weight: 900;
+  margin: 0 0 12.55px;
+  color: var(--shell-light-brown);
+  line-height: 100%;
+  font-size: 1.6em;
+  font-weight: 900;
 }
-@keyframes beach_ball{
-    from{
-        transform: translateY(0px) rotate(-1deg);
-    }
-    to {
-        transform: translateY(-10px) rotate(1deg);
-    }
+@keyframes beach_ball {
+  from {
+    transform: translateY(0px) rotate(-1deg);
+  }
+  to {
+    transform: translateY(-10px) rotate(1deg);
+  }
 }
-.beach-ball{
-    position: absolute;
-    width: 100px;
-    margin-top: 100px;
-    display: block;
-    right: 100px;
-    z-index: 1;
-    animation: beach_ball 4s infinite alternate;
-}
-
-.sandals{
-    position: absolute;
-    width: 100px;
-    display: block;
-    left: 250px;
-    top: 200px;
-    /* z-index: 1; */
-    /* transition: auto; */
-    transform: rotate(180deg)
+.beach-ball {
+  position: absolute;
+  width: 100px;
+  margin-top: 100px;
+  display: block;
+  right: 20%;
+  z-index: 1;
+  animation: beach_ball 4s infinite alternate;
 }
 
-.seat-with-towels{
-    position: absolute;
-    width: 300px;
-    display: block;
-    left: 0;
-    top: 0;
-    z-index: 1;
+.sandals {
+  position: absolute;
+  width: 100px;
+  display: block;
+  left: 250px;
+  top: 200px;
+  /* z-index: 1; */
+  /* transition: auto; */
+  transform: rotate(180deg);
+}
+
+.seat-with-towels {
+  position: absolute;
+  width: 300px;
+  display: block;
+  left: 0;
+  top: 0;
+  z-index: 1;
 }
 
 .register-button {
-    font-family: "Montserrat", sans-serif;
-    line-height: 100%;
-    font-size: 1.6em;
-    font-weight: 900;
-    margin: 0;
+  font-family: "Montserrat", sans-serif;
+  line-height: 100%;
+  font-size: 1.6em;
+  font-weight: 900;
+  margin: 0;
 }
 
 .main-section-details-specifics {
-    color: var(--shell-light-brown);
-    font-size: 1.3em;
-    line-height: 1.1em;
-    font-weight: 600;
+  color: var(--shell-light-brown);
+  font-size: 1.3em;
+  line-height: 1.1em;
+  font-weight: 600;
+  margin: 25px 0 25px;
 }
 
 .main-section-buttons-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .main-section-buttons-container .submit-button {
-    min-width: 30%;
-    max-width: 300px;
-    margin-bottom: 0;
-    padding: 20px;
+  min-width: 30%;
+  max-width: 300px;
+  margin-bottom: 0;
+  padding: 20px;
 }
 
-.small_rocks{
-    position: absolute;
-    width: 300px;
-    display: block;
-    left: 0;
-    top: 70vh;
-    z-index: -1;
+.small_rocks {
+  position: absolute;
+  width: 300px;
+  display: block;
+  left: 0;
+  top: 60vh;
+  z-index: -1;
 }
 
 @keyframes starfish_wave {
-    from{
-        transform: translateY(-20px) rotate(-1deg);
-    }
-    to {
-        transform: translateY(-25px) rotate(1deg);
-    }
+  from {
+    transform: translateY(-20px) rotate(-1deg);
+  }
+  to {
+    transform: translateY(-25px) rotate(1deg);
+  }
 }
 
-.starfish{
-    position: absolute;
-    width: 50px;
-    display: block;
-    left: 200px;
-    top: 76vh;
-    z-index: 1;
-    animation: starfish_wave 3s infinite alternate;
-    animation-timing-function: ease-in-out;
+.starfish {
+  position: absolute;
+  width: 100px;
+  display: block;
+  left: 200px;
+  top: 68vh;
+  z-index: 1;
+  animation: starfish_wave 3s infinite alternate;
+  animation-timing-function: ease-in-out;
 }
 
 @media only screen and (max-width: 768px) {
-    .main-section-container {
-        width: 80%;
-    }
-    .main-section-buttons-container .submit-button {
-        margin-bottom: 5%;
-    }
-    .main-section-buttons-container {
-        flex-direction: column;
-    }
-    .main-section-details-specific {
-        font-size: 1.1em;
-    }
-    .main-section-details-creed {
-        font-size: 1.6em;
-    }
+  .main-section-container {
+    width: 80%;
+  }
+  .main-section-buttons-container .submit-button {
+    margin-bottom: 5%;
+  }
+  .main-section-buttons-container {
+    flex-direction: column;
+  }
+  .main-section-details-specific {
+    font-size: 1.1em;
+  }
+  .main-section-details-creed {
+    font-size: 1.6em;
+  }
 }
-@media only screen and (max-width: 760px){
-
-.small_rocks{
+@media only screen and (max-width: 760px) {
+  .small_rocks {
     display: none;
-}
+  }
 
-.seat-with-towels{
+  .seat-with-towels {
     display: none;
-}
-.beach-ball{
-    width: 80px;
+  }
+  .beach-ball {
+    width: 100px;
     margin-top: 100px;
     right: 20px;
-}
-.sandals{
+  }
+  .sandals {
     width: 100px;
     left: 50px;
     top: 150px;
-}
-
+  }
 }
 
 @media only screen and (max-width: 568px) {
-    .main-section-buttons-container .submit-button {
-        font-size:14px;
-        font-weight: 700;
-    }
-    .main-section-details-specifics {
-        font-size: 16px;
-    }
+  .beach-ball {
+    margin-top: 200px;
+    right: 80px;
+  }
+  .starfish {
+    display: none;
+  }
+  .sandals {
+    width: 100px;
+    left: 20px;
+    top: 50px;
+  }
+  .main-section-container {
+    width: 100%;
+  }
+  .main-section-buttons-container .submit-button {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .main-section-details-specifics {
+    font-size: 16px;
+  }
 }

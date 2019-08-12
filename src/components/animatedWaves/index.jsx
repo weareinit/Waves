@@ -1,7 +1,5 @@
 /**
  * Animated wave background
- * ------------------------------
- * @author Jehf K D. (@jehfkemsy), Raf (@rslay)
  */
 
 import React, { Component } from "react";

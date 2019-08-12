@@ -1,7 +1,6 @@
 /**
  * "Shell-styled" reuseable button template
  * ------------------------------
- * @author Jehf K D. (@jehfkemsy)
  */
 
 import React from "react";
