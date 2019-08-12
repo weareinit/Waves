@@ -14,10 +14,13 @@ import Info from "./info";
 import Main from "./main";
 
 export default class Landing extends Component {
-  handleRegisterClick = () => {window.open("https://dashboard.shellhacks.net");}
-  handleSponsorClick = () => this.props.history.push("/sponsor");
+  //navigates to registration dashboard
+  handleRegisterClick = () => {
+    window.open("https://dashboard.shellhacks.net");
+  };
 
   render() {
+    //landing page sections
     const menuOptions = [
       { title: "Home", location: "home" },
       { title: "About Us", location: "about" },
@@ -25,8 +28,9 @@ export default class Landing extends Component {
       { title: "Schedule", location: "schedule" },
       { title: "Faqs", location: "faqs" },
       { title: "Sponsors", location: "sponsors" },
-      { title: "Thanks", location: "organizers" },
+      { title: "Thanks", location: "organizers" }
     ];
+
     return (
       <div className="landing-wrapper">
         <MLHBadge />

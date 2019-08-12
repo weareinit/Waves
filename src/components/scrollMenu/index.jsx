@@ -1,8 +1,6 @@
 /**
  * Scroll container with side menu using react-scroll
  * @docs https://www.npmjs.com/package/react-scroll
- * ------------------------------
- * @author Jehf K D. (@jehfkemsy)
  */
 
 import React from "react";
@@ -10,7 +8,7 @@ import PropTypes from "prop-types";
 import Options from "./options";
 import { Events, animateScroll as scroll, scroller } from "react-scroll";
 
-//section  wrapper
+//sections  wrapper
 class ScrollMenu extends React.Component {
   constructor(props) {
     super(props);
@@ -25,7 +23,7 @@ class ScrollMenu extends React.Component {
     scroller.scrollTo("scroll-to-element", {
       duration: 800,
       delay: 0,
-      smooth: "easeInOutQuart",
+      smooth: "easeInOutQuart"
     });
   }
 
@@ -39,7 +37,7 @@ class ScrollMenu extends React.Component {
       scroller.scrollTo("scroll-container", {
         duration: 800,
         delay: 0,
-        smooth: "easeInOutQuart",
+        smooth: "easeInOutQuart"
       });
     });
 
@@ -48,7 +46,7 @@ class ScrollMenu extends React.Component {
         duration: 800,
         delay: 0,
         smooth: "easeInOutQuart",
-        containerId: "scroll-container",
+        containerId: "scroll-container"
       })
     );
   }
@@ -68,6 +66,6 @@ class ScrollMenu extends React.Component {
 }
 //type checking
 ScrollMenu.propTypes = {
-  children: PropTypes.elementType.isRequired,
+  children: PropTypes.elementType.isRequired
 };
 export { ScrollMenu };
