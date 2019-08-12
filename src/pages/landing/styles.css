@@ -1,3 +1,9 @@
+.scroll-container
+{
+  width: 100vw;
+  height: 100%;
+  overflow: hidden;
+}
 .landing-gradient {
   background: var(--shell-gradient);
 }
