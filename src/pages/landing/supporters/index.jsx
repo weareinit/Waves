@@ -120,7 +120,11 @@ const Supporters = () => {
           </a>
         </div> */}
 
-        <h1 className="landing-section-title">Sponsors</h1>
+        <h1 className="landing-section-title">🤝 Sponsors</h1>
+        <center><h2 className="upcoming-waves">Wave 1</h2></center>
+        <br/>
+        <br/>
+        <br/>
         <div className="sponsor-logo-container">
           {sponsors.map((company, i) =>
             company.tier === "temp" ? <Logo key={i} {...company} /> : <></>
@@ -130,6 +134,11 @@ const Supporters = () => {
             company.tier === "sponsor" ? <Logo key={i} {...company} /> : <></>
           )}
         </div>
+        <br/>
+        <br/>
+        
+
+        <center><h2 className="upcoming-waves">Shore bet theres more 😉!</h2></center>
 
         {/* <h1 className="landing-section-title">Partners</h1>
         <div className="sponsor-logo-container">

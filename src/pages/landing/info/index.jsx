@@ -14,14 +14,16 @@ const Info = () => {
       <div className="info-section-container">
           <h1  className="landing-section-title">🌊 The Wave is Here!</h1>
           <p className="landing-section-paragraph">
-            ShellHacks is an upcoming 36-hour hackathon at Florida International
-            University (FIU), taking place the weekend of Friday, September 20th
-            to Sunday 22nd.
+          Get ready for a weekend full of learning, innovation, and fun at ShellHacks, 
+          Florida’s Largest Hackathon! Take a dive with us as 1,000 students from across 
+          the nation come to learn about the latest technologies, build innovative projects, 
+          and showcase their work. 
             <br />
             <br />
-            Our mission is to provide students with the opportunity to learn
-            about new technologies, create innovative projects, and share their
-            work with the community!
+            Explore the world of technology through interactive workshops, receive mentorship 
+            from amazing mentors, and network with top companies. Featuring fun activities, 
+            delicious meals, awesome prizes, and tons of swag, this is a wave you won’t want to miss!
+
           </p>
         </div>
 

@@ -5,6 +5,7 @@ import { ReactComponent as Front } from '../../../assets/tracks/front.svg'
 import { ReactComponent as Back } from '../../../assets/tracks/back.svg'
 import { ReactComponent as Hardware } from '../../../assets/tracks/hardware.svg'
 import { ReactComponent as IT } from '../../../assets/tracks/it.svg'
+//import { ReactComponent as Game } from '../../../assets/tracks/gaming.svg'
 import TrackItem from "../../../components/trackItem";
 import data from "../../../config/data/tracks";
 import "./styles.css";
@@ -23,6 +24,8 @@ const Tracks = () => {
         return <AI />
       case "e":
         return <IT />
+      /*case "f":
+        return <Game />*/
       default:
 
     }
@@ -32,7 +35,11 @@ const Tracks = () => {
       <div className="learning-tracks-container">
         <h1 className="landing-section-title">💡 Learning Tracks</h1>
         <p className="landing-section-paragraph">
-          Do you love tinkering with databases, but aren’t really sure how the front-end works? Or maybe all you’ve ever done is Java, but you really want to work with microcontrollers? At ShellHacks, we offer learning tracks for everyone to learn new skills in any field they’re interested in!
+        Never written a line of code before? Maybe you’ve done some front-end development, 
+        but not sure how the back-end works? Or you’ve only done software and are looking to 
+        explore hardware? At ShellHacks, we offer different tracks for you to gain skills in all 
+        kinds of technologies!
+
         </p>
         <br />
 

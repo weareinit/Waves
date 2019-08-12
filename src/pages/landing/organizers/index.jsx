@@ -19,10 +19,10 @@ class Organizers extends Component {
         <section name="organizers">
           <div className="thanks-conatainer">
             <h1 className="landing-section-title">
-              Thank you for &#10084; ShellHacks!
+              With &#10084; from ShellHacks
           </h1>
           </div>
-          <div className="sites-container">
+          {/* <div className="sites-container">
             <a
               href="https://2017.shellhacks.net"
               rel="noopener noreferrer"
@@ -47,7 +47,7 @@ class Organizers extends Component {
             >
               <p> Wallpapers</p>
             </a>
-          </div>
+          </div> */}
           <div className="social-media-container">
             <a href="https://discordapp.com/invite/upefiu">
               <FontAwesomeIcon icon={faDiscord} size="4x" />
