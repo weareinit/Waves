@@ -1,3 +1,8 @@
+.schedule-section
+{
+    position: relative;
+}
+
 .schedule-button-container {
     display: flex;
     flex-direction: row;
@@ -78,7 +83,7 @@
 
 .manatee img{
     position: absolute;
-    width: 550px;
+    width: 35vw;
     margin-top: 450px;
     display: block;
     right: 100px;
@@ -99,12 +104,16 @@
     .schedule-button-container-mobile .submit-button {
         width: 30%;
     }
-    .manatee{
-        display: none!important;
+    
+    .manatee img{
+        right: unset;
+        margin-top: unset;
+        bottom: -80px;
     }
+    
     .schedule-container {
-    width: 100%;
-}
+        width: 100%;
+    }
 }
 
 .submit-button p{

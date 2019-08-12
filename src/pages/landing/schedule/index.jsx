@@ -43,7 +43,7 @@ class Schedule extends Component {
     }
 
     return (
-      <section name="schedule">
+      <section name="schedule" className="schedule-section">
 
         <div className="manatee">
           <img src={require(`../../../assets/animals/Manatee.svg`)}></img>
