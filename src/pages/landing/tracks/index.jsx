@@ -24,8 +24,8 @@ const Tracks = () => {
         return <AI />
       case "e":
         return <IT />
-      /*case "f":
-        return <Game />*/
+      //case "f":
+        //return <Game />
       default:
 
     }

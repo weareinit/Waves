@@ -4,82 +4,84 @@ const liSpace = { marginBottom: "10px" };
 
 const faqs = [
   {
-    title: <>What is a Hackathon?</>,
+    title: <>What is a hackathon?</>,
     description: (
       <>
-        A hackathon is an event where students of all academic backgrounds and
-        skill levels come together to solve problems by using technology.
-        <br /> <br />
-        Students form groups and create projects that tackle these challenges,
-        all while attending workshops to develop new skills, receiving
-        mentorship from industry leaders, and networking with recruiters from
-        top companies.
+        A hackathon is a weekend-long event where students come together to 
+        learn about the latest technologies and build innovative products.
       </>
     )
   },
   {
-    title: <>Is there a theme?</>,
+    title: <>When and where is ShellHacks?</>,
     description: (
       <>
-        Our theme focuses on diversity, and not just from an academic standpoint.
-        Miami is a cultural melting pot full of people from all walks of life,
-        with{" "}
-        <a
-          className="links"
-          rel="noopener noreferrer"
-          target="_blank"
-          href="https://fiu.edu"
-        >
-          FIU being no exception
-        </a>
-        .
+        ShellHacks will take place from September 20th through the 22nd at 
+        Florida International University’s Kovens Conference Center in Miami, Florida.
       </>
     )
   },
   {
-    title: <>Sounds cool. So, can I come?</>,
+    title: <>How long is it?</>,
     description: (
       <>
-        If you're a current college/university student or a recent graduate (up
-        to 1 year), you're more than welcome to attend! The event is open to
-        students of all academic backgrounds and skill levels, so whether you’re
-        an aspiring artist or an expert engineer, there’s a place for you at
-        ShellHacks.
+        ShellHacks is a 36-hour hackathon. We encourage you to work on your project 
+        for as long you can, though we also want you to get some rest. Feel free to take a 
+        break anytime during the hackathon and even bring your sleeping gear with you!
       </>
     )
   },
   {
-    title: <>Wait, I don't know how to code!</>,
+    title: <>Who can come?</>,
     description: (
       <>
-        Don't worry, one of the core principles of a hackathon is learning!
-        There'll be several workshops throughout the event, ranging from
-        beginner to advanced, so there's always something new to learn.
+        If you’re currently a college student or have graduated in the past year, 
+        you're more than welcome to attend! Not a student? Not a problem! You can attend 
+        as a mentor and help out our students!
       </>
     )
   },
   {
-    title: <>Will there be food?</>,
+    title: <>How much experience do I need?</>,
     description: (
       <>
-        There will be food. Lots of food. LOTS. Miami's food scene is diverse,
-        so there’s always something for everyone. We’ll do our best to
-        accommodate for any dietary restriction as well, just make sure to let
-        us know come registration time.
+        None! We welcome students from all academic backgrounds and skill levels, 
+        so don’t be afraid to come and join us! We’ll have introductory workshops 
+        for you to learn new skills, industry mentors to help you out, and great tools 
+        to build your projects. Whether you’ve never coded before or have lots of experience, 
+        there’s a place for you at ShellHacks!
+      </>
+    )
+  },
+  {
+    title: <>Do I need to have a group?</>,
+    description: (
+      <>
+        Not at all! You can be a lone wolf, come with a premade team (no more than four people), 
+        or even join some teams at the event. We’ll also have team building activities to help you find the right teammates!
+      </>
+    )
+  },
+  {
+    title: <>How much does it cost?</>,
+    description: (
+      <>
+        Nothing! That’s right, ShellHacks is entirely free for 
+        all attendees to participate. All you need to worry about is learning new skills, developing 
+        cool projects, and having fun!
+      </>
+    )
+  },
+  {
+    title: <>Will food be provided?</>,
+    description: (
+      <>
+        Yes! All major meals and snacks will be provided to everyone attending ShellHacks. We'll also have coffee, energy drinks, and even tea, for those 
+        sophisticated hackers out there!
         <br />
         <br />
-        There’s also coffee, energy drinks, and tea if you want to keep it
-        classy.
-      </>
-    )
-  },
-  {
-    title: <>Do I need to already have a group?</>,
-    description: (
-      <>
-        Nope. You can go solo, come with your own team (no more than 4), or
-        participate in a group mixer we'll have before hacking begins to find a
-        group.
+        We’ll do our best to accommodate any dietary restrictions as well; just note them on your 
+        registration form and we’ll make sure you get what you need.
       </>
     )
   },
@@ -87,68 +89,13 @@ const faqs = [
     title: <>Will there be travel reimbersement?</>,
     description: (
       <>
-        We're currently working those details out! Come back later or checkout "Essentials" once details are finalized.
-        {/* There will be travel reimbursement available with the following
-        stipulations:
-        <br />
-        <br />
-        <ol style={{ listStylePosition: "inside", listStyleType: "decimal" }}>
-          <li style={liSpace}> Up to $60 in gas dependent on mileage</li>
-          <li style={liSpace}>
-            Must not be coming from a school which has a bus (unless the bus is
-            filled)
-          </li>
-          <li style={liSpace}>
-            All cars must be filled with a minimum of 4 passengers
-          </li>
-          <li style={liSpace}>
-            All passengers must be attending the hackathon
-          </li>
-        </ol>
-        We will be sending information on how to claim the reimbursement at a
-        later date, so{" "}
-        <span style={{ fontWeight: "bold" }}>
-          please keep hold of your receipts!
-        </span> */}
-      </>
-    )
-  },
-
-  {
-    title: <>Alright, I'm hyped for ShellHacks! How do I register?</>,
-    description: (
-      <>
-        Just click the big "Register" button up top. Make sure you check your
-        email too since we'll be having your verify your email address and
-        sending acceptances through there too!
+        We're currently working those details out! Come back later or checkout "Essentials" 
+        once details are finalized.
       </>
     )
   },
   {
-    title: <>So, why ‘ShellHacks’?</>,
-    description: (
-      <>
-        Well, it started off as a joke about what a turtle-themed hackathon
-        would be called. Later on, we actually started thinking about organizing
-        a hackathon, but instead of turtles, we decided to focus on diversity in
-        Miami. Since the city has an abundance of seashells on its beaches, the
-        name stuck. <br />
-        <br />
-        It's also a play on words about{" "}
-        <a
-          className="links"
-          rel="noopener noreferrer"
-          target="_blank"
-          href="https://en.wikipedia.org/wiki/Shell_(computing)"
-        >
-          computer shells
-        </a>
-        , but that’s just to draw attention away from all the turtle puns.
-      </>
-    )
-  },
-  {
-    title: <>How can I or my company become a sponsor?</>,
+    title: <>How can I become a sponsor?</>,
     description: (
       <>
         If you'd like to sponsor, please send us an email at{" "}

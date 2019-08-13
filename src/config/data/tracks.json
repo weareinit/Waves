@@ -1,5 +1,5 @@
 [{
-        "title": "Front-end",
+        "title": "Front-End",
         "id": "a",
         "description": "Learn the frameworks needed to develop user interfaces on web and mobile platforms",
         "techs": [
@@ -9,7 +9,7 @@
         ]
     },
     {
-        "title": "Back-end",
+        "title": "Back-End",
         "id": "b",
         "description": "Learn about the underlying systems that power the applications you interact with everyday",
         "techs": [
