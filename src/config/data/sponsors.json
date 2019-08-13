@@ -5,16 +5,22 @@
         "logo": "Microsoft.svg"
     },
     {
+        "name": "Twitter",
+        "tier": "temp",
+        "url": "https://careers.twitter.com/",
+        "logo": "Twitter.svg"
+    },
+    {
         "name": "AutoNation",
         "tier": "temp",
         "url": "https://www.redfin.com",
         "logo": "Autonation.svg"
     },
     {
-        "name": "Citrix",
+        "name": "FCA",
         "tier": "temp",
-        "url": "https://www.citrix.com",
-        "logo": "Citrix.svg"
+        "url": "https://careers.fcagroup.com/",
+        "logo": "FCA.svg"
     },
     {
         "name": "RCCL",
@@ -23,34 +29,16 @@
         "logo": "RCCL.svg"
     },
     {
-        "name": "Chevron",
+        "name": "Origin",
         "tier": "temp",
-        "url": "https://www.chevron.com",
-        "logo": "Chevron.svg"
+        "url": "https://www.originpc.com/company/careers",
+        "logo": "Origin.svg"
     },
     {
-        "name": "Google",
+        "name": "Digital Ocean",
         "tier": "temp",
-        "url": "http://about.google.com",
-        "logo": "Google.svg"
-    },
-    {
-        "name": "Dell",
-        "tier": "temp",
-        "url": "https://www.dell.com/en-us",
-        "logo": "Dell.svg"
-    },
-    {
-        "name": "Assurant",
-        "tier": "temp",
-        "url": "https://www.assurant.com",
-        "logo": "Assurant.svg"
-    },
-    {
-        "name": "Redfin",
-        "tier": "temp",
-        "url": "https://www.redfin.com",
-        "logo": "Redfin.svg"
+        "url": "https://www.digitalocean.com/careers/",
+        "logo": "DigitalOcean.svg"
     },
     {
         "name": "Sketch",
@@ -63,5 +51,23 @@
         "tier": "temp",
         "url": "http://www.wolfram.com/",
         "logo": "Wolfram.svg"
+    },
+    {
+        "name": "JetBrains",
+        "tier": "temp",
+        "url": "https://www.jetbrains.com/careers/apply/",
+        "logo": "JetBrains.svg"
+    },
+    {
+        "name": "FIU CEC",
+        "tier": "temp",
+        "url": "https://cec.fiu.edu",
+        "logo": "FIUCEC.svg"
+    },
+    {
+        "name": "MLH",
+        "tier": "temp",
+        "url": "https://https://mlh.io/",
+        "logo": "MLH.svg"
     }
 ]

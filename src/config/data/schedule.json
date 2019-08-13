@@ -4,70 +4,70 @@
         "description": " No event was scheduled for this date"
     }],
     "friday": [{
-            "time": "4:00-8:00PM",
-            "description": " Check-In"
+            "time": "Check-In ",
+            "description": " 4:00PM - 7:00PM"
         },
         {
-            "time": "7:00-8:00PM",
-            "description": " Dinner!"
+            "time": "Dinner",
+            "description": " 7:00PM - 8:00PM"
         },
         {
-            "time": "8:00-9:00PM",
-            "description": " Opening Ceremony"
+            "time": "Opening Ceremony",
+            "description": " 8:00PM - 9:00PM"
         },
         {
-            "time": "9:00-10:30PM",
-            "description": " Sponsorship Fair"
+            "time": "Sponsor Fair",
+            "description": " 9:00PM - 10:30PM"
         },
         {
-            "time": "10:30PM",
-            "description": " Hacking Begins!"
+            "time": "Hacking Begins!",
+            "description": " 10:30PM"
         }
     ],
     "saturday": [{
-            "time": "1:00AM",
-            "description": " Midnight Snack ++"
+            "time": "Midnight Snack++",
+            "description": " 1:00AM"
         },
         {    
-            "time": "8:00AM-9:00AM",
-            "description": " Breakfast"
+            "time": "Breakfast",
+            "description": " 8:00AM - 9:00AM"
         },
         {
-            "time": "1:00PM-2:00PM",
-            "description": " Lunch"
+            "time": "Lunch ",
+            "description": " 1:00PM - 2:00PM"
         },
         {
-            "time": "5:00PM",
-            "description": " Snack"
+            "time": "Snack",
+            "description": " 5:00PM"
         },
         {
-            "time": "8:00-9:00PM",
-            "description": " Dinner"
+            "time": "Dinner ",
+            "description": " 8:00PM - 9:00PM"
         }
     ],
     "sunday": [{
-            "time": "7:00AM -8:00AM",
-            "description": " Breakfast"
+            "time": "Breakfast",
+            "description": " 7:00AM - 8:00AM"
         },
         {
-            "time": "9:00AM",
-            "description": " Hacking Ends"
+            "time": "Submissions Due",
+            "description": " 8:00AM"
         },
         {
-            "time": "10:00-12:30PM",
-            "description": " Demo Time!"
+            "time": "Hacking Ends",
+            "description": " 9:00AM"
         },
         {
-            "time": "12:30-1:00PM",
-            "description": " Judges Deliberation"
+            "time": "Demo Time!",
+            "description": " 10:00AM - 12:30PM"
         },
         {
-            "time": "1:00-2:00PM",
-            "description": " Closing Ceremony"
+            "time": "Closing Ceremony",
+            "description": " 1:00PM - 2:00PM"
         },
         {
-            "time": "2:30PM",
-            "description": " ShellHacks Ends & Farewell Lunch!"
+            "time": "ShellHacks Ends & Farewell Lunch!",
+            "description": " 2:30PM"
         }
     ]
 }

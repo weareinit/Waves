@@ -19,7 +19,7 @@ class Organizers extends Component {
         <section name="organizers">
           <div className="thanks-conatainer">
             <h1 className="landing-section-title">
-              With &#10084; from ShellHacks
+              With 💛 from ShellHacks
           </h1>
           </div>
           {/* <div className="sites-container">
