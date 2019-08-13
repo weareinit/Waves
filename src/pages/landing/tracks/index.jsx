@@ -43,28 +43,28 @@ const Tracks = () => {
         </p>
         <br />
 
-        <div className="fish5">
+        <div className="fish-container fish5">
           <img src={require(`../../../assets/animals/Pink_Fish.svg`)}></img>
         </div>
 
-        <div className="fish6">
+        <div className="fish-container fish6">
           <img src={require(`../../../assets/animals/Fish.svg`)}></img>
         </div>
 
-        <div className="fish7">
+        <div className="fish-container fish7">
           <img src={require(`../../../assets/animals/Fish.svg`)}></img>
         </div>
 
-        <div className="fish8">
+        <div className="fish-container fish8">
           <img src={require(`../../../assets/animals/Pink_Fish.svg`)}></img>
         </div>
 
 
-        <div className="fish3">
+        <div className="fish-container fish3">
           <img src={require(`../../../assets/animals/Pink_Fish.svg`)}></img>
         </div>
 
-        <div className="fish4">
+        <div className="fish-container fish4">
           <img src={require(`../../../assets/animals/Fish.svg`)}></img>
         </div>
 
@@ -75,15 +75,15 @@ const Tracks = () => {
         </div>
       </div>{" "}
     </section>
-    <div className="fish">
+    <div className="fish-container fish">
       <img src={require(`../../../assets/animals/Fish.svg`)}></img>
     </div>
 
-    <div className="fish1">
+    <div className="fish-container fish1">
       <img src={require(`../../../assets/animals/Fish.svg`)}></img>
     </div>
 
-    <div className="fish2">
+    <div className="fish-container fish2">
       <img src={require(`../../../assets/animals/Fish.svg`)}></img>
     </div>
   </>
