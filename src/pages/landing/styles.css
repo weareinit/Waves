@@ -1,7 +1,6 @@
 
 .landing-gradient {
   background: var(--shell-gradient);
-  overflow: hidden;
 }
 
 .landing-button-wrapper {
