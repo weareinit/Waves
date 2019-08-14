@@ -16,8 +16,10 @@ const faqs = [
     title: <>When and where is ShellHacks?</>,
     description: (
       <>
-        ShellHacks will take place from September 20th through the 22nd at 
-        Florida International University’s Kovens Conference Center in Miami, Florida.
+        ShellHacks is taking place from September 20th through the 22nd at 
+        Florida International University’s Kovens Conference Center in Miami, Florida. 
+        The venue is located at the beautiful Biscayne Bay Campus, featuring amazing 
+        waterfront views and recreational spaces.
       </>
     )
   },
@@ -25,9 +27,10 @@ const faqs = [
     title: <>How long is it?</>,
     description: (
       <>
-        ShellHacks is a 36-hour hackathon. We encourage you to work on your project 
-        for as long you can, though we also want you to get some rest. Feel free to take a 
-        break anytime during the hackathon and even bring your sleeping gear with you!
+        ShellHacks is a 36-hour hackathon, beginning at 4pm on Friday and ending at 2pm on 
+        Sunday. We encourage you to work on your project for as long as you can during this 
+        time. Most students also bring sleeping gear to stay on site and get the most out of 
+        the experience. You can also choose to go home to freshen up and come back!
       </>
     )
   },
@@ -36,7 +39,7 @@ const faqs = [
     description: (
       <>
         If you’re currently a college student or have graduated in the past year, 
-        you're more than welcome to attend! Not a student? Not a problem! You can attend 
+        you're more than welcome to attend! Not a student? No problem! You can attend 
         as a mentor and help out our students!
       </>
     )
@@ -57,8 +60,8 @@ const faqs = [
     title: <>Do I need to have a group?</>,
     description: (
       <>
-        Not at all! You can be a lone wolf, come with a premade team (no more than four people), 
-        or even join some teams at the event. We’ll also have team building activities to help you find the right teammates!
+        Not at all! You can be a lone wolf, come with a pre-made team (no more than four people), 
+        or join some teams at the event. We’ll also have team building activities to help you find the right teammates!
       </>
     )
   },
@@ -76,21 +79,20 @@ const faqs = [
     title: <>Will food be provided?</>,
     description: (
       <>
-        Yes! All major meals and snacks will be provided to everyone attending ShellHacks. We'll also have coffee, energy drinks, and even tea, for those 
-        sophisticated hackers out there!
+        Yes! All major meals and snacks will be provided to everyone attending ShellHacks. We'll also have coffee, 
+        energy drinks, and even tea, for those sophisticated hackers out there!
         <br />
         <br />
-        We’ll do our best to accommodate any dietary restrictions as well; just note them on your 
+        We’ll do our best to accommodate any dietary restrictions as well - just note them on your 
         registration form and we’ll make sure you get what you need.
       </>
     )
   },
   {
-    title: <>Will there be travel reimbersement?</>,
+    title: <>Will there be travel reimbursement?</>,
     description: (
       <>
-        We're currently working those details out! Come back later or checkout "Essentials" 
-        once details are finalized.
+        We're currently working those details out! Check back later for updates.
       </>
     )
   },

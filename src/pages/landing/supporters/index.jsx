@@ -2,6 +2,7 @@ import React from "react";
 import "./styles.css";
 import sponsors from "../../../config/data/sponsors";
 import organizerLogo from "../../../assets/logos/organizers/upe_named_white.svg";
+import cohostLogo from "../../../assets/logos/sponsors/JPMC.svg";
 
 const Supporters = () => {
 
@@ -41,7 +42,7 @@ const Supporters = () => {
     <section name="sponsors">
       <div className="sponsors-container">
         <div className="organizers-container">
-          <h1 className="landing-section-title">🐳 Host</h1>
+          <h1 className="landing-section-title">🐳 Organized By</h1>
           <a
             rel="noopener noreferrer"
             target="_blank"
@@ -63,49 +64,31 @@ const Supporters = () => {
           </p>
         </div>
 
-        {/* <div className="organizers-container">
-          <h1 className="landing-section-title">Cohost</h1>
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            className="logo-container logo-hover hacky-comlumn-reverse-mobile"
-            href="http://upe.cs.fiu.edu"
-          >
-            {" "}
-            <img
-              className="organizer-logo"
-              alt="Microsoft Logo"
-              src="http://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE2qVsJ?ver=3f74"
-            />
-          </a>
-          <p className="landing-section-paragraph">
-            "
-            <a
-              className="links"
-              rel="noopener noreferrer"
-              target="_blank"
-              href="http://link.com"
-            >
-              CoHost Name
-            </a>{" "}
-            Cohost Details
-          </p>
+        <div className="organizers-container">
+          <h1 className="landing-section-title">🐬 Co-Hosted By</h1>
           <a
             rel="noopener noreferrer"
             target="_blank"
             className="logo-container logo-hover hacky-comlumn-reverse-web"
-            href="http://upe.cs.fiu.edu"
+            href="https://www.jpmorganchase.com"
           >
             {" "}
             <img
               className="organizer-logo"
-              alt="CoHost Logo"
-              src="http://link"
+              alt="JPMC Logo"
+              src={cohostLogo}
             />
           </a>
-        </div> */}
-        <br/><br/><br/><br/>
-        <h1 className="landing-section-title">🤝 Sponsors</h1>
+          <p className="landing-section-paragraph">
+          JPMorgan Chase & Co. is a leading global financial services firm with assets of 
+          $2.5 trillion and operations worldwide. With 50,000 technologists and a $10+ billion 
+          investment, technology drives every aspect of their business. Their teams build innovative 
+          solutions that impact millions of customers and businesses worldwide.
+          </p>
+          
+        </div> 
+        <br/><br/>
+        <h1 className="landing-section-title">🐠 Sponsors</h1>
         <center><h2 className="upcoming-waves">Wave 1</h2></center>
         <br/>
         <br/>
@@ -125,7 +108,7 @@ const Supporters = () => {
         <br/>
         
 
-        <center><h2 className="upcoming-waves">Shore bet theres more! 😉</h2></center>
+        <center><h2 className="upcoming-waves">Next wave coming soon! 😉</h2></center>
 
         {/* <h1 className="landing-section-title">Partners</h1>
         <div className="sponsor-logo-container">

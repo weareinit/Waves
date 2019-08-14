@@ -5,7 +5,7 @@ import { ReactComponent as Front } from '../../../assets/tracks/front.svg'
 import { ReactComponent as Back } from '../../../assets/tracks/back.svg'
 import { ReactComponent as Hardware } from '../../../assets/tracks/hardware.svg'
 import { ReactComponent as IT } from '../../../assets/tracks/it.svg'
-//import { ReactComponent as Game } from '../../../assets/tracks/gaming.svg'
+import { ReactComponent as Game } from '../../../assets/tracks/gaming.svg'
 import TrackItem from "../../../components/trackItem";
 import data from "../../../config/data/tracks";
 import "./styles.css";
@@ -24,8 +24,8 @@ const Tracks = () => {
         return <AI />
       case "e":
         return <IT />
-      //case "f":
-        //return <Game />
+      case "f":
+        return <Game />
       default:
 
     }
@@ -36,9 +36,8 @@ const Tracks = () => {
         <h1 className="landing-section-title">💡 Learning Tracks</h1>
         <p className="landing-section-paragraph">
         Never written a line of code before? Maybe you’ve done some front-end development, 
-        but not sure how the back-end works? Or you’ve only done software and are looking to 
-        explore hardware? At ShellHacks, we offer different tracks for you to gain skills in all 
-        kinds of technologies!
+        but not sure how the back-end works? At ShellHacks, we offer different tracks for 
+        you to gain skills in all kinds of technologies!
 
         </p>
         <br />
@@ -67,7 +66,7 @@ const Tracks = () => {
         <div className="fish-container fish4">
           <img src={require(`../../../assets/animals/Fish.svg`)}></img>
         </div>
-
+        
         <div className="track-items-container">
           {data.map((item, i) => (
             <TrackItem key={i} {...item} icon={getIcon(item.id)} />

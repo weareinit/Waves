@@ -5,69 +5,69 @@
     }],
     "friday": [{
             "time": "Check-In ",
-            "description": " 4:00PM - 7:00PM"
+            "description": " 4 - 7 PM"
         },
         {
             "time": "Dinner",
-            "description": " 7:00PM - 8:00PM"
+            "description": " 7 - 8 PM"
         },
         {
             "time": "Opening Ceremony",
-            "description": " 8:00PM - 9:00PM"
+            "description": " 8 - 9 PM"
         },
         {
             "time": "Sponsor Fair",
-            "description": " 9:00PM - 10:30PM"
+            "description": " 9 - 10:30 PM"
         },
         {
             "time": "Hacking Begins!",
-            "description": " 10:30PM"
+            "description": " 10:30 PM"
         }
     ],
     "saturday": [{
             "time": "Midnight Snack++",
-            "description": " 1:00AM"
+            "description": " 1 - 2 AM"
         },
         {    
             "time": "Breakfast",
-            "description": " 8:00AM - 9:00AM"
+            "description": " 8 - 9 AM"
         },
         {
             "time": "Lunch ",
-            "description": " 1:00PM - 2:00PM"
+            "description": " 1 - 2 PM"
         },
         {
             "time": "Snack",
-            "description": " 5:00PM"
+            "description": " 5 - 6 PM"
         },
         {
             "time": "Dinner ",
-            "description": " 8:00PM - 9:00PM"
+            "description": " 8 - 9 PM"
         }
     ],
     "sunday": [{
             "time": "Breakfast",
-            "description": " 7:00AM - 8:00AM"
+            "description": " 7 - 8 AM"
         },
         {
             "time": "Submissions Due",
-            "description": " 8:00AM"
+            "description": " 8 AM"
         },
         {
             "time": "Hacking Ends",
-            "description": " 9:00AM"
+            "description": " 9 AM"
         },
         {
             "time": "Demo Time!",
-            "description": " 10:00AM - 12:30PM"
+            "description": " 10 AM - 12:30 PM"
         },
         {
             "time": "Closing Ceremony",
-            "description": " 1:00PM - 2:00PM"
+            "description": " 1 - 2 PM"
         },
         {
             "time": "ShellHacks Ends & Farewell Lunch!",
-            "description": " 2:30PM"
+            "description": " 2:30 PM"
         }
     ]
 }

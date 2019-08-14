@@ -20,8 +20,8 @@ const Info = () => {
           and showcase their work. 
             <br />
             <br />
-            Explore the world of technology through interactive workshops, receive mentorship 
-            from amazing mentors, and network with top companies. Featuring fun activities, 
+            Come and explore the world of technology through interactive workshops, receive mentorship 
+            from experts, and network with top companies. Featuring fun activities, 
             delicious meals, awesome prizes, and tons of swag, this is a wave you won’t want to miss!
 
           </p>
