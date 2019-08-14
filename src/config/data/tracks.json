@@ -11,7 +11,7 @@
     {
         "title": "Back-End",
         "id": "b",
-        "description": "Learn about the underlying systems that power the applications you interact with everyday",
+        "description": "Learn the underlying systems that power the apps you interact with everyday",
         "techs": [
             "HTML/CSS",
             "MongoDB",
@@ -42,6 +42,16 @@
         "title": "IT / Cybersecurity",
         "id": "e",
         "description": "Take on cloud computing and grasp the wonders of hacking and cybersecurity",
+        "techs": [
+            "HTML/CSS",
+            "MongoDB",
+            "ReactJS"
+        ]
+    },
+    {
+        "title": "Game Development",
+        "id": "f",
+        "description": "Write code to create games and virtual experiences, making stories and characters come to life",
         "techs": [
             "HTML/CSS",
             "MongoDB",
