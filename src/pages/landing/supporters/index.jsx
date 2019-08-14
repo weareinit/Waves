@@ -5,7 +5,6 @@ import organizerLogo from "../../../assets/logos/organizers/upe_named_white.svg"
 import cohostLogo from "../../../assets/logos/sponsors/JPMC.svg";
 
 const Supporters = () => {
-
   let Logo = ({ logo, url, name, tier }) => {
     let logoClass;
     switch (tier) {
@@ -56,20 +55,23 @@ const Supporters = () => {
             />
           </a>
           <p className="landing-section-paragraph">
-            Upsilon Pi Epsilon (UPE) is the largest student organization for technology at 
-            Florida International University (FIU).
-            Our mission is to provide students with opportunities to develop technically 
-            and professionally through events like ShellHacks. We welcome students of all academic 
-            backgrounds and skill levels who are interested in technology.
+            Upsilon Pi Epsilon (UPE) is the largest student organization for
+            technology at Florida International University (FIU). Our mission is
+            to provide students with opportunities to develop technically and
+            professionally through events like ShellHacks. We welcome students
+            of all academic backgrounds and skill levels who are interested in
+            technology.
           </p>
         </div>
 
         <div className="organizers-container">
-          <h1 className="landing-section-title">🐬 Co-Hosted By</h1>
+          <h1 className="landing-section-title" style={{ margin: "50px 0 0" }}>
+            🐬 Co-Hosted By
+          </h1>
           <a
             rel="noopener noreferrer"
             target="_blank"
-            className="logo-container logo-hover hacky-comlumn-reverse-web"
+            className="logo-container logo-hover"
             href="https://www.jpmorganchase.com"
           >
             {" "}
@@ -77,38 +79,40 @@ const Supporters = () => {
               className="organizer-logo"
               alt="JPMC Logo"
               src={cohostLogo}
+              style={{ margin: 0 }}
             />
           </a>
           <p className="landing-section-paragraph">
-          JPMorgan Chase & Co. is a leading global financial services firm with assets of 
-          $2.5 trillion and operations worldwide. With 50,000 technologists and a $10+ billion 
-          investment, technology drives every aspect of their business. Their teams build innovative 
-          solutions that impact millions of customers and businesses worldwide.
+            JPMorgan Chase & Co. is a leading global financial services firm
+            with assets of $2.5 trillion and operations worldwide. With 50,000
+            technologists and a $10+ billion investment, technology drives every
+            aspect of their business. Their teams build innovative solutions
+            that impact millions of customers and businesses worldwide.
           </p>
-          
-        </div> 
-        <br/><br/>
+        </div>
+        <br />
+        <br />
         <h1 className="landing-section-title">🐠 Sponsors</h1>
-        <center><h2 className="upcoming-waves">Wave 1</h2></center>
-        <br/>
-        <br/>
-        <br/>
+        <center>
+          <h2 className="upcoming-waves">Wave 1</h2>
+        </center>
+        <br />
+        <br />
+        <br />
         <div className="sponsor-logo-container">
           {sponsors.map((company, i) =>
             company.tier === "temp" ? <Logo key={i} {...company} /> : <></>
           )}
-
           {sponsors.map((company, i) =>
             company.tier === "sponsor" ? <Logo key={i} {...company} /> : <></>
           )}
         </div>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        
-
-        <center><h2 className="upcoming-waves">Next wave coming soon! 😉</h2></center>
+        <br />
+        <br />
+        <br />
+        <center>
+          <h2 className="upcoming-waves">Next wave coming soon! 😉</h2>
+        </center>
 
         {/* <h1 className="landing-section-title">Partners</h1>
         <div className="sponsor-logo-container">
