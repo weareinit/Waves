@@ -14,7 +14,7 @@ const TrackItem = ({ title,icon, description, techs }) => {
   return (
     <div className='track-card-container'>
       <h3 className='track-card-item-title'>{title}</h3>
-      <div>
+      <div className="track-icon-container">
       {icon}
       </div>
       <p className='track-card-item-description'>{description}</p>
