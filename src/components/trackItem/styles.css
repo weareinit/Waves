@@ -42,6 +42,10 @@
     padding: 0 20%;
 }
 
+.track-icon-container{
+    padding: 30px;
+}
+
 @media only screen and (max-width: 768px) {
     .track-card-container {
         width: 50%;
