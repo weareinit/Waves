@@ -5,6 +5,12 @@
         "logo": "Microsoft.svg"
     },
     {
+        "name": "Xbox",
+        "tier": "temp",
+        "url": "https://www.xbox.com",
+        "logo": "xbox.svg"
+    },
+    {
         "name": "Twitter",
         "tier": "temp",
         "url": "https://careers.twitter.com/",
@@ -13,7 +19,7 @@
     {
         "name": "AutoNation",
         "tier": "temp",
-        "url": "https://www.redfin.com",
+        "url": "https://jobs.autonation.com",
         "logo": "Autonation.svg"
     },
     {
