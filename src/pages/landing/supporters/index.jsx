@@ -94,7 +94,7 @@ const Supporters = () => {
         <br />
         <h1 className="landing-section-title">🐠 Sponsors</h1>
         <center>
-          <h2 className="upcoming-waves">Wave 1</h2>
+          {/* <h2 className="upcoming-waves">Wave 3</h2> */}
         </center>
         <br />
         <br />
@@ -111,7 +111,7 @@ const Supporters = () => {
         <br />
         <br />
         <center>
-          <h2 className="upcoming-waves">Next wave coming soon! 😉</h2>
+          <h2 className="upcoming-waves">More sponsors coming soon! 😉</h2>
         </center>
 
         {/* <h1 className="landing-section-title">Partners</h1>

@@ -1,79 +1,139 @@
 [{
-        "name": "Microsoft",
-        "tier": "temp",
-        "url": "https://www.microsoft.com/en-us/",
-        "logo": "Microsoft.svg"
-    },
-    {
-        "name": "Xbox",
-        "tier": "temp",
-        "url": "https://www.xbox.com",
-        "logo": "xbox.svg"
-    },
-    {
-        "name": "Twitter",
-        "tier": "temp",
-        "url": "https://careers.twitter.com/",
-        "logo": "Twitter.svg"
-    },
-    {
-        "name": "AutoNation",
-        "tier": "temp",
-        "url": "https://jobs.autonation.com",
-        "logo": "Autonation.svg"
-    },
-    {
-        "name": "FCA",
-        "tier": "temp",
-        "url": "https://careers.fcagroup.com/",
-        "logo": "FCA.svg"
-    },
-    {
-        "name": "RCCL",
-        "tier": "temp",
-        "url": "https://www.royalcaribbean.com",
-        "logo": "RCCL.svg"
-    },
-    {
-        "name": "Origin",
-        "tier": "temp",
-        "url": "https://www.originpc.com/company/careers",
-        "logo": "Origin.svg"
-    },
-    {
-        "name": "Digital Ocean",
-        "tier": "temp",
-        "url": "https://www.digitalocean.com/careers/",
-        "logo": "DigitalOcean.svg"
-    },
-    {
-        "name": "Sketch",
-        "tier": "temp",
-        "url": "https://www.sketch.com",
-        "logo": "Sketch.svg"
-    },
-    {
-        "name": "Wolfram",
-        "tier": "temp",
-        "url": "http://www.wolfram.com/",
-        "logo": "Wolfram.svg"
-    },
-    {
-        "name": "JetBrains",
-        "tier": "temp",
-        "url": "https://www.jetbrains.com/careers/apply/",
-        "logo": "JetBrains.svg"
-    },
-    {
-        "name": "FIU CEC",
-        "tier": "temp",
-        "url": "https://cec.fiu.edu",
-        "logo": "FIUCEC.svg"
-    },
-    {
-        "name": "MLH",
-        "tier": "temp",
-        "url": "https://https://mlh.io/",
-        "logo": "MLH.svg"
-    }
+    "name": "Microsoft",
+    "tier": "temp",
+    "url": "https://www.microsoft.com/en-us/",
+    "logo": "Microsoft.svg"
+},
+{
+    "name": "Xbox",
+    "tier": "temp",
+    "url": "https://www.xbox.com",
+    "logo": "xbox.svg"
+},
+{
+    "name": "Google",
+    "tier": "temp",
+    "url": "https://www.google.com",
+    "logo": "Google.svg"
+},
+{
+    "name": "Twitter",
+    "tier": "temp",
+    "url": "https://careers.twitter.com/",
+    "logo": "Twitter.svg"
+},
+{
+    "name": "Dell",
+    "tier": "temp",
+    "url": "https://jobs.dell.com/?~ck=mn",
+    "logo": "Dell.svg"
+},
+{
+    "name": "AutoNation",
+    "tier": "temp",
+    "url": "https://jobs.autonation.com",
+    "logo": "Autonation.svg"
+},
+{
+    "name": "FCA",
+    "tier": "temp",
+    "url": "https://careers.fcagroup.com/",
+    "logo": "FCA.svg"
+},
+{
+    "name": "RCCL",
+    "tier": "temp",
+    "url": "https://www.royalcaribbean.com",
+    "logo": "RCCL.svg"
+},
+{
+    "name": "Chevron",
+    "tier": "temp",
+    "url": "http://careers.chevron.com",
+    "logo": "Chevron.svg"
+},
+{
+    "name": "Taxfyle",
+    "tier": "temp",
+    "url": "https://taxfyle.com",
+    "logo": "Taxfyle.svg"
+},
+{
+    "name": "Lyft",
+    "tier": "temp",
+    "url": "https://www.lyft.com/careers",
+    "logo": "Lyft.svg"
+},
+{
+    "name": "Origin",
+    "tier": "sponsor",
+    "url": "https://www.originpc.com/company/careers",
+    "logo": "Origin.svg"
+},
+{
+    "name": "Digital Ocean",
+    "tier": "sponsor",
+    "url": "https://www.digitalocean.com/careers/",
+    "logo": "DigitalOcean.svg"
+},
+{
+    "name": "Twilio",
+    "tier": "sponsor",
+    "url": "https://www.twilio.com/company/jobs",
+    "logo": "Twilio.svg"
+},
+{
+    "name": "Sketch",
+    "tier": "sponsor",
+    "url": "https://www.sketch.com",
+    "logo": "Sketch.svg"
+},
+{
+    "name": "Wolfram",
+    "tier": "sponsor",
+    "url": "http://www.wolfram.com/",
+    "logo": "Wolfram.svg"
+},
+{
+    "name": "JetBrains",
+    "tier": "sponsor",
+    "url": "https://www.jetbrains.com/careers/apply/",
+    "logo": "JetBrains.svg"
+},
+{
+    "name": "Stickermule",
+    "tier": "sponsor",
+    "url": "https://www.stickermule.com/careers",
+    "logo": "Stickermule.svg"
+},
+{
+    "name": "MuscleMilk",
+    "tier": "sponsor",
+    "url": "https://www.musclemilk.com/careers/",
+    "logo": "MuscleMilk.svg"
+},
+{
+    "name": "Rockstar",
+    "tier": "sponsor",
+    "url": "http://rockstarenergy.com/company/careers",
+    "logo": "Rockstar.svg"
+},
+{
+    "name": "FIU CEC",
+    "tier": "sponsor",
+    "url": "https://cec.fiu.edu",
+    "logo": "FIUCEC.svg"
+},
+{
+    "name": "FIUSCIS",
+    "tier": "sponsor",
+    "url": "https://www.cis.fiu.edu",
+    "logo": "FIUSCIS.svg"
+},
+{
+    "name": "MLH",
+    "tier": "sponsor",
+    "url": "https://https://mlh.io/",
+    "logo": "MLH.svg"
+}
 ]
