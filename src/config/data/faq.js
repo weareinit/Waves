@@ -17,9 +17,7 @@ const faqs = [
     description: (
       <>
         ShellHacks is taking place from September 20th through the 22nd at 
-        Florida International University’s Kovens Conference Center in Miami, Florida. 
-        The venue is located at the beautiful Biscayne Bay Campus, featuring amazing 
-        waterfront views and recreational spaces.
+        Florida International University.
       </>
     )
   },
