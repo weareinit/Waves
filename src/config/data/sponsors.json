@@ -1,259 +1,260 @@
-[{
+[
+  {
     "name": "MITRE",
-    "tier": "host",
+    "tier": "big-boi",
     "url": "https://www.mitre.org",
     "logo": "Mitre.svg"
-},
-{
+  },
+  {
     "name": "Microsoft",
     "tier": "temp",
     "url": "https://www.microsoft.com",
     "logo": "Microsoft.svg"
-},
-{
+  },
+  {
     "name": "Xbox",
     "tier": "temp",
     "url": "https://www.xbox.com",
     "logo": "xbox.svg"
-},
-{
+  },
+  {
     "name": "Google",
     "tier": "temp",
     "url": "https://www.google.com",
     "logo": "Google.svg"
-},
-{
+  },
+  {
     "name": "Twitter",
     "tier": "temp",
     "url": "https://twitter.com",
     "logo": "Twitter.svg"
-},
-{
+  },
+  {
     "name": "Dell",
     "tier": "temp",
     "url": "https://dell.com",
     "logo": "Dell.svg"
-},
-{
+  },
+  {
     "name": "Citrix",
     "tier": "temp",
     "url": "https://citrix.com",
     "logo": "Citrix.svg"
-},
-{
+  },
+  {
     "name": "FCA",
     "tier": "temp",
     "url": "https://www.fcagroup.com/en-US/Pages/home.aspx",
     "logo": "FCA.svg"
-},
-{
+  },
+  {
     "name": "Macys",
     "tier": "temp",
     "url": "https://technology.macysjobs.com/",
     "logo": "Macys.svg"
-},
-{
+  },
+  {
     "name": "Carnival",
     "tier": "temp",
     "url": "https://carnival.com",
     "logo": "Carnival.svg"
-},
-{
+  },
+  {
     "name": "Assurant",
     "tier": "temp",
     "url": "https://assurant.com",
     "logo": "Assurant.svg"
-},
-{
+  },
+  {
     "name": "AutoNation",
     "tier": "temp",
     "url": "https://autonation.com",
     "logo": "Autonation.svg"
-},
-{
+  },
+  {
     "name": "Nike",
     "tier": "temp",
     "url": "https://nike.com/",
     "logo": "Nike.svg"
-},
-{
+  },
+  {
     "name": "State Farm",
     "tier": "temp",
     "url": "https://www.statefarm.com",
     "logo": "StateFarm.svg"
-},
-{
+  },
+  {
     "name": "Chevron",
     "tier": "temp",
     "url": "http://chevron.com",
     "logo": "Chevron.svg"
-},
-{
+  },
+  {
     "name": "RCCL",
     "tier": "temp",
     "url": "https://www.royalcaribbean.com",
     "logo": "RCCL.svg"
-},
-{
+  },
+  {
     "name": "Farelogix",
     "tier": "temp",
     "url": "https://www.farelogix.com",
     "logo": "Farelogix.svg"
-},
-{
+  },
+  {
     "name": "Redfin",
     "tier": "temp",
     "url": "https://www.redfin.com",
     "logo": "Redfin.svg"
-},
-{
+  },
+  {
     "name": "Taxfyle",
     "tier": "temp",
     "url": "https://taxfyle.com",
     "logo": "Taxfyle.svg"
-},
-{
+  },
+  {
     "name": "GitHub",
     "tier": "temp",
     "url": "https://github.com",
     "logo": "Github.svg"
-},
-{
+  },
+  {
     "name": "Lyft",
     "tier": "temp",
     "url": "https://www.lyft.com",
     "logo": "Lyft.svg"
-},
-{
+  },
+  {
     "name": "Ripplematch",
     "tier": "temp",
     "url": "https://ripplematch.com",
     "logo": "Ripplematch.svg"
-},
-{
+  },
+  {
     "name": "City National Bank",
     "tier": "temp",
     "url": "https://www.citynationalcm.com",
     "logo": "CNB.svg"
-},
-{
+  },
+  {
     "name": "EA",
     "tier": "temp",
     "url": "https://www.ea.com",
     "logo": "EA.svg"
-},
-{
+  },
+  {
     "name": "Origin",
     "tier": "sponsor",
     "url": "https://www.originpc.com",
     "logo": "Origin.svg"
-},
-{
+  },
+  {
     "name": "FL Panthers",
     "tier": "sponsor",
     "url": "https://www.nhl.com",
     "logo": "Panthers.svg"
-},
-{
+  },
+  {
     "name": "Digital Ocean",
     "tier": "sponsor",
     "url": "https://www.digitalocean.com",
     "logo": "DigitalOcean.svg"
-},
-{
+  },
+  {
     "name": "Cloudflare",
     "tier": "sponsor",
     "url": "https://www.cloudflare.com",
     "logo": "Cloudflare.svg"
-},
-{
+  },
+  {
     "name": "Twilio",
     "tier": "sponsor",
     "url": "https://www.twilio.com",
     "logo": "Twilio.svg"
-},
-{
+  },
+  {
     "name": "Sketch",
     "tier": "sponsor",
     "url": "https://www.sketch.com",
     "logo": "Sketch.svg"
-},
-{
+  },
+  {
     "name": "Wolfram",
     "tier": "sponsor",
     "url": "http://www.wolfram.com",
     "logo": "Wolfram.svg"
-},
-{
+  },
+  {
     "name": "Balsamiq",
     "tier": "sponsor",
     "url": "https://balsamiq.com",
     "logo": "Balsamiq.svg"
-},
-{
+  },
+  {
     "name": "Heroku",
     "tier": "sponsor",
     "url": "https://www.heroku.com",
     "logo": "Heroku.svg"
-},
-{
+  },
+  {
     "name": "MATRIX",
     "tier": "sponsor",
     "url": "https://www.matrix.one",
     "logo": "Matrix.svg"
-},
-{
+  },
+  {
     "name": "JetBrains",
     "tier": "sponsor",
     "url": "https://www.jetbrains.com",
     "logo": "JetBrains.svg"
-},
-{
+  },
+  {
     "name": "Stickermule",
     "tier": "sponsor",
     "url": "http://hackp.ac/mlh-stickermule-hackathons",
     "logo": "Stickermule.svg"
-},
-{
+  },
+  {
     "name": "MuscleMilk",
     "tier": "sponsor",
     "url": "https://www.musclemilk.com",
     "logo": "MuscleMilk.svg"
-},
-{
+  },
+  {
     "name": "Rockstar",
     "tier": "sponsor",
     "url": "http://rockstarenergy.com",
     "logo": "Rockstar.svg"
-},
-{
+  },
+  {
     "name": "Pepsi",
     "tier": "sponsor",
     "url": "https://www.pepsi.com/en-us/",
     "logo": "Pepsi.svg"
-},
-{
+  },
+  {
     "name": "Taylor Design",
     "tier": "sponsor",
     "url": "https://www.instagram.com/tayloreventdesign/",
     "logo": "Taylor.svg"
-},
-{
+  },
+  {
     "name": "FIU CEC",
     "tier": "sponsor",
     "url": "https://cec.fiu.edu",
     "logo": "FIUCEC.svg"
-},
-{
+  },
+  {
     "name": "FIUSCIS",
     "tier": "sponsor",
     "url": "https://www.cis.fiu.edu",
     "logo": "FIUSCIS.svg"
-},
-{
+  },
+  {
     "name": "MLH",
     "tier": "sponsor",
     "url": "https://https://mlh.io/",
     "logo": "MLH.svg"
-}
+  }
 ]

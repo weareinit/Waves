@@ -5,7 +5,7 @@ import organizerLogo from "../../../assets/logos/organizers/upe_named_white.svg"
 import cohostLogo from "../../../assets/logos/sponsors/JPMC.svg";
 
 const Supporters = () => {
-  let Logo = ({ logo, url, name, tier }) => {
+  let Logo = ({ logo, url, name, tier, imageStyle }) => {
     let logoClass;
     switch (tier) {
       case "sponsor":
@@ -16,6 +16,9 @@ const Supporters = () => {
         break;
       case "temp":
         logoClass = "temp-img";
+        break;
+      case "big-boi":
+        logoClass = "organizer-logo";
         break;
       default:
         logoClass = "";
@@ -28,7 +31,7 @@ const Supporters = () => {
         href={url}
       >
         <img
-          style={{ width: "100%" }}
+          style={{ width: "100%", ...imageStyle }}
           className={`${tier}-img `}
           alt={name}
           src={require(`../../../assets/logos/sponsors/${logo}`)}
@@ -96,15 +99,23 @@ const Supporters = () => {
         <br />
         <br />
         <br />
-
-        {sponsors.map((company, i) =>
+        <div className="sponsor-logo-container">
+          {sponsors.map((company, i) =>
             company.tier === "host" ? <Logo key={i} {...company} /> : <></>
           )}
-
+        </div>
         <div className="sponsor-logo-container">
-          <br/>
+          <br />
           {sponsors.map((company, i) =>
-            company.tier === "temp" ? <Logo key={i} {...company} /> : <></>
+            company.tier === "big-boi" ? (
+              <Logo
+                key={i}
+                {...company}
+                imageStyle={{ maxWidth: "500px", alignSelf: "center" }}
+              />
+            ) : (
+              <></>
+            )
           )}
           {sponsors.map((company, i) =>
             company.tier === "sponsor" ? <Logo key={i} {...company} /> : <></>
