@@ -96,9 +96,6 @@ const Supporters = () => {
         <br />
         <br />
         <h1 className="landing-section-title">🐠 Sponsors</h1>
-        <br />
-        <br />
-        <br />
         <div className="sponsor-logo-container">
           <br />
           {sponsors.map((company, i) =>
@@ -119,9 +116,6 @@ const Supporters = () => {
             company.tier === "sponsor" ? <Logo key={i} {...company} /> : <></>
           )}
         </div>
-        <br />
-        <br />
-        <br />
 
         {/* <h1 className="landing-section-title">Partners</h1>
         <div className="sponsor-logo-container">
