@@ -19,6 +19,9 @@ export default class Landing extends Component {
     window.open("https://dashboard.shellhacks.net");
   };
 
+  handleMentorClick = () => {
+    window.open("https://dashboard.shellhacks.net/mentor");
+  };
   render() {
     //landing page sections
     const menuOptions = [
@@ -36,7 +39,7 @@ export default class Landing extends Component {
         <MLHBadge />
         <div className="scroll">
           <Main
-            handleSponsorClick={this.handleSponsorClick}
+            handleMentorClick={this.handleMentorClick}
             handleRegisterClick={this.handleRegisterClick}
           />
           <div className="landing-gradient">

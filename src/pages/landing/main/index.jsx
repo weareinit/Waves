@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, AnimatedWaves } from "../../../components";
 import "./styles.css";
-const Main = ({ handleRegisterClick }) => {
+const Main = ({ handleRegisterClick, handleMentorClick }) => {
   return (
     <div className="home-container">
       <AnimatedWaves>
@@ -33,12 +33,21 @@ const Main = ({ handleRegisterClick }) => {
               <h1 id="slogan">Florida's Largest Hackathon</h1>
               <p className="main-section-details-specifics">
                 September 20-22, 2019
-              <br />
+                <br />
                 Florida International University
-            </p>
+              </p>
             </div>
             <div className="main-section-buttons-container ">
-              <Button title="Register Now!" action={handleRegisterClick} labelStyle="register-button" strong />
+              <Button
+                title="Register Now!"
+                action={handleRegisterClick}
+                labelStyle="register-button"
+              />
+              <Button
+                title="Mentor"
+                action={handleMentorClick}
+                labelStyle="register-button"
+              />
             </div>
           </div>
         </section>
