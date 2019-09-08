@@ -35,6 +35,8 @@ const Main = ({ handleRegisterClick, handleMentorClick }) => {
                 September 20-22, 2019
                 <br />
                 Florida International University
+                <br />
+                Ernest R. Graham University Center
               </p>
             </div>
             <div className="main-section-buttons-container ">
