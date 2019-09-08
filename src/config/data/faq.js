@@ -17,7 +17,7 @@ const faqs = [
     description: (
       <>
         ShellHacks is taking place from September 20th through the 22nd at 
-        Florida International University, <a href="https://studentaffairs.fiu.edu/campus-services/graham-center/">Ernest R. Graham University Center</a>
+        Florida International University, <a className="links"href="https://studentaffairs.fiu.edu/campus-services/graham-center/">Ernest R. Graham University Center</a>.
       </>
     )
   },
