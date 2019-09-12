@@ -16,7 +16,7 @@ import Main from "./main";
 export default class Landing extends Component {
   //navigates to registration dashboard
   handleRegisterClick = () => {
-    window.open("https://dashboard.shellhacks.net");
+    window.open("https://dashboard.shellhacks.net");//this will go to login if you're not already logged in
   };
 
   handleMentorClick = () => {
