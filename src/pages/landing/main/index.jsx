@@ -41,7 +41,7 @@ const Main = ({ handleRegisterClick, handleMentorClick }) => {
             </div>
             <div className="main-section-buttons-container ">
               <Button
-                title="Register Now!"
+                title="Dashboard"
                 action={handleRegisterClick}
                 labelStyle="register-button"
               />
