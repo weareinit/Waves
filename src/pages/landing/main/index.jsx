@@ -46,7 +46,7 @@ const Main = ({ handleRegisterClick, handleMentorClick }) => {
                 labelStyle="register-button"
               />
               <Button
-                title="Mentor"
+                title="Mentor Application"
                 action={handleMentorClick}
                 labelStyle="register-button"
               />
