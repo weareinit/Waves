@@ -19,6 +19,7 @@
         "code",
         "review",
         "bug",
+        "infra",
         "maintenance",
         "projectManagement"
       ]
