@@ -1,7 +1,7 @@
 
 # Waves 
 
-🐚 ShellHacks 2019 landing page
+🌊  ShellHacks 2019 landing page
 
 ---
 ## Getting started
