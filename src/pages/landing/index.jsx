@@ -16,11 +16,17 @@ import Main from "./main";
 export default class Landing extends Component {
   //navigates to registration dashboard
   handleRegisterClick = () => {
-    window.open("https://dashboard.shellhacks.net");//this will go to login if you're not already logged in
+    window.open("https://dashboard.shellhacks.net"); //this will go to login if you're not already logged in
   };
 
   handleMentorClick = () => {
     window.open("https://dashboard.shellhacks.net/mentor");
+  };
+
+  handleVolunteerClick = () => {
+    window.open(
+      "https://docs.google.com/forms/d/e/1FAIpQLSd-FR86Tm7Vfi0bZQ3a9byZJqAXenux0QpP9KVAEdwAjgZAWg/viewform"
+    );
   };
   render() {
     //landing page sections
@@ -41,6 +47,7 @@ export default class Landing extends Component {
           <Main
             handleMentorClick={this.handleMentorClick}
             handleRegisterClick={this.handleRegisterClick}
+            handleVolunteerClick={this.handleVolunteerClick}
           />
           <div className="landing-gradient">
             <Info />
