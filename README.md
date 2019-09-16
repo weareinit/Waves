@@ -1,5 +1,5 @@
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
 # Waves 
 
 🌊  ShellHacks 2019 landing page
@@ -31,6 +31,7 @@
     <td align="center"><a href="http://mrmcpowned.com"><img src="https://avatars2.githubusercontent.com/u/5028527?v=4" width="100px;" alt="Christopher Rodriguez"/><br /><sub><b>Christopher Rodriguez</b></sub></a><br /><a href="https://github.com/upe-fiu/Waves/commits?author=mrmcpowned" title="Code">💻</a> <a href="https://github.com/upe-fiu/Waves/issues?q=author%3Amrmcpowned" title="Bug reports">🐛</a> <a href="#ideas-mrmcpowned" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/Svilla27"><img src="https://avatars3.githubusercontent.com/u/43285453?v=4" width="100px;" alt="Steven Villa"/><br /><sub><b>Steven Villa</b></sub></a><br /><a href="https://github.com/upe-fiu/Waves/commits?author=Svilla27" title="Code">💻</a></td>
     <td align="center"><a href="http://tommycarrascal.me/"><img src="https://avatars3.githubusercontent.com/u/29385045?v=4" width="100px;" alt="Tommy Carrascal"/><br /><sub><b>Tommy Carrascal</b></sub></a><br /><a href="https://github.com/upe-fiu/Waves/commits?author=Tommy2016x" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/KevinLosada"><img src="https://avatars1.githubusercontent.com/u/20808589?v=4" width="100px;" alt="Kevin Losada"/><br /><sub><b>Kevin Losada</b></sub></a><br /><a href="https://github.com/upe-fiu/Waves/issues?q=author%3AKevinLosada" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 

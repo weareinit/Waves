@@ -62,6 +62,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "KevinLosada",
+      "name": "Kevin Losada",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/20808589?v=4",
+      "profile": "https://github.com/KevinLosada",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7
