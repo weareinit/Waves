@@ -1,4 +1,9 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFistRaised,
+  faHandsHelping
+} from "@fortawesome/free-solid-svg-icons"; //need to pre-load in app.js
 import { Button, AnimatedWaves } from "../../../components";
 import "./styles.css";
 const Main = ({
@@ -45,20 +50,18 @@ const Main = ({
             </div>
             <div className="main-section-buttons-container ">
               <Button
-                title="Dashboard"
+                title="Login"
                 action={handleRegisterClick}
                 labelStyle="register-button"
               />
-              <Button
-                title="Help Mentor"
-                action={handleMentorClick}
-                labelStyle="register-button"
-              />
-              <Button
-                title="Help Volunteer"
-                action={handleVolunteerClick}
-                labelStyle="register-button"
-              />
+              <div className="secondary-actions">
+                <h3 onClick={handleMentorClick}>
+                  <FontAwesomeIcon icon={faHandsHelping} /> Mentor
+                </h3>
+                <h3 onClick={handleVolunteerClick}>
+                  <FontAwesomeIcon icon={faFistRaised} /> Volunteer
+                </h3>
+              </div>
             </div>
           </div>
         </section>
