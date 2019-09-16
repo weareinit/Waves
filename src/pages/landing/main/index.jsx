@@ -45,17 +45,17 @@ const Main = ({
             </div>
             <div className="main-section-buttons-container ">
               <Button
-                title="Dashboard"
+                title="Login"
                 action={handleRegisterClick}
                 labelStyle="register-button"
               />
               <Button
-                title="Help Mentor"
+                title="Mentor Signup"
                 action={handleMentorClick}
                 labelStyle="register-button"
               />
               <Button
-                title="Help Volunteer"
+                title="Volunteer Signup"
                 action={handleVolunteerClick}
                 labelStyle="register-button"
               />
