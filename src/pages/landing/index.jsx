@@ -20,7 +20,9 @@ export default class Landing extends Component {
   };
 
   handleMentorClick = () => {
-    window.open("https://dashboard.shellhacks.net/mentor");
+    window.open(
+      "https://docs.google.com/forms/d/e/1FAIpQLSc77lDukz31YLXOK1X5feZnUi_HgZ92V3Fyi36duDhjk7_-AQ/viewform"
+    );
   };
 
   handleVolunteerClick = () => {
