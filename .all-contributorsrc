@@ -14,9 +14,13 @@
       "login": "Jehfkemsy",
       "name": "Jehf Denezaire",
       "avatar_url": "https://avatars0.githubusercontent.com/u/32716551?v=4",
-      "profile": "https://upe.cs.fiu.edu",
+      "profile": "https://github.com/Jehfkemsy",
       "contributions": [
-        "code"
+        "code",
+        "review",
+        "bug",
+        "maintenance",
+        "projectManagement"
       ]
     }
   ],
