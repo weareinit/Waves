@@ -1,6 +1,6 @@
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
-# Waves 
+# [Waves](https://shellhacks.net) [![Shellhacks](https://hackathon.badge.pw/shellhacks)](https://shellhacks.net) [![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
+
 
 🌊  ShellHacks 2019 landing page
 
