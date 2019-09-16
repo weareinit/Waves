@@ -1,0 +1,77 @@
+{
+  "projectName": "Waves",
+  "projectOwner": "upe-fiu",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "eslint",
+  "contributors": [
+    {
+      "login": "Jehfkemsy",
+      "name": "Jehf Denezaire",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/32716551?v=4",
+      "profile": "https://github.com/Jehfkemsy",
+      "contributions": [
+        "code",
+        "review",
+        "bug",
+        "infra",
+        "maintenance",
+        "projectManagement"
+      ]
+    },
+    {
+      "login": "yasmine0217",
+      "name": "Yasmine Abdrabo",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/26018436?v=4",
+      "profile": "https://github.com/yasmine0217",
+      "contributions": [
+        "code",
+        "content"
+      ]
+    },
+    {
+      "login": "mrmcpowned",
+      "name": "Christopher Rodriguez",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5028527?v=4",
+      "profile": "http://mrmcpowned.com",
+      "contributions": [
+        "code",
+        "bug",
+        "ideas"
+      ]
+    },
+    {
+      "login": "Svilla27",
+      "name": "Steven Villa",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/43285453?v=4",
+      "profile": "https://github.com/Svilla27",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Tommy2016x",
+      "name": "Tommy Carrascal",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/29385045?v=4",
+      "profile": "http://tommycarrascal.me/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "KevinLosada",
+      "name": "Kevin Losada",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/20808589?v=4",
+      "profile": "https://github.com/KevinLosada",
+      "contributions": [
+        "bug"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
