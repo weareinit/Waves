@@ -1,7 +1,11 @@
 import React from "react";
 import { Button, AnimatedWaves } from "../../../components";
 import "./styles.css";
-const Main = ({ handleRegisterClick, handleMentorClick }) => {
+const Main = ({
+  handleRegisterClick,
+  handleMentorClick,
+  handleVolunteerClick
+}) => {
   return (
     <div className="home-container">
       <AnimatedWaves>
@@ -46,8 +50,13 @@ const Main = ({ handleRegisterClick, handleMentorClick }) => {
                 labelStyle="register-button"
               />
               <Button
-                title="Mentor Application"
+                title="Help Mentor"
                 action={handleMentorClick}
+                labelStyle="register-button"
+              />
+              <Button
+                title="Help Volunteer"
+                action={handleVolunteerClick}
                 labelStyle="register-button"
               />
             </div>
