@@ -90,11 +90,21 @@
   min-width: 25%;
   width: 100%;
   max-width: unset;
-  padding: 15px 40px;
+  padding: 15px 80px;
   margin: 15px 0 0;
   width: auto;
 }
-
+.main-section-buttons-container .secondary-actions {
+  display: flex;
+  color: var(--shell-dark-brown);
+}
+.main-section-buttons-container .secondary-actions h3 {
+  margin: 15px;
+}
+.main-section-buttons-container .secondary-actions h3:hover {
+  cursor: pointer;
+  color: var(--shell-light-pink);
+}
 .small_rocks {
   position: absolute;
   width: 300px;
@@ -186,9 +196,6 @@
   }
 }
 @media only screen and (min-width: 1024px) {
-  .main-section-buttons-container {
-    flex-direction: row;
-  }
   .main-section-buttons-container .submit-button {
     margin: 10px;
   }
