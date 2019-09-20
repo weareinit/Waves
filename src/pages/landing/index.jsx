@@ -16,9 +16,20 @@ import Main from "./main";
 export default class Landing extends Component {
   //navigates to registration dashboard
   handleRegisterClick = () => {
-    window.open("https://dashboard.shellhacks.net");
+    window.open("https://dashboard.shellhacks.net"); //this will go to login if you're not already logged in
   };
 
+  handleMentorClick = () => {
+    window.open(
+      "https://docs.google.com/forms/d/e/1FAIpQLSc77lDukz31YLXOK1X5feZnUi_HgZ92V3Fyi36duDhjk7_-AQ/viewform"
+    );
+  };
+
+  handleVolunteerClick = () => {
+    window.open(
+      "https://docs.google.com/forms/d/e/1FAIpQLSd-FR86Tm7Vfi0bZQ3a9byZJqAXenux0QpP9KVAEdwAjgZAWg/viewform"
+    );
+  };
   render() {
     //landing page sections
     const menuOptions = [
@@ -36,8 +47,9 @@ export default class Landing extends Component {
         <MLHBadge />
         <div className="scroll">
           <Main
-            handleSponsorClick={this.handleSponsorClick}
+            handleMentorClick={this.handleMentorClick}
             handleRegisterClick={this.handleRegisterClick}
+            handleVolunteerClick={this.handleVolunteerClick}
           />
           <div className="landing-gradient">
             <Info />

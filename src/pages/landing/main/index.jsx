@@ -1,7 +1,16 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFistRaised,
+  faHandsHelping
+} from "@fortawesome/free-solid-svg-icons"; //need to pre-load in app.js
 import { Button, AnimatedWaves } from "../../../components";
 import "./styles.css";
-const Main = ({ handleRegisterClick }) => {
+const Main = ({
+  handleRegisterClick,
+  handleMentorClick,
+  handleVolunteerClick
+}) => {
   return (
     <div className="home-container">
       <AnimatedWaves>
@@ -33,12 +42,26 @@ const Main = ({ handleRegisterClick }) => {
               <h1 id="slogan">Florida's Largest Hackathon</h1>
               <p className="main-section-details-specifics">
                 September 20-22, 2019
-              <br />
+                <br />
                 Florida International University
-            </p>
+                <br />
+                Ernest R. Graham University Center
+              </p>
             </div>
             <div className="main-section-buttons-container ">
-              <Button title="Register Now!" action={handleRegisterClick} labelStyle="register-button" strong />
+              <Button
+                title="Login"
+                action={handleRegisterClick}
+                labelStyle="register-button"
+              />
+              <div className="secondary-actions">
+                <h3 onClick={handleMentorClick}>
+                  <FontAwesomeIcon icon={faHandsHelping} /> Mentor
+                </h3>
+                <h3 onClick={handleVolunteerClick}>
+                  <FontAwesomeIcon icon={faFistRaised} /> Volunteer
+                </h3>
+              </div>
             </div>
           </div>
         </section>

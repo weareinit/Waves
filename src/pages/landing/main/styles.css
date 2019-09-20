@@ -79,19 +79,32 @@
 
 .main-section-buttons-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
 }
 
 .main-section-buttons-container .submit-button {
-  min-width: 30%;
-  max-width: 300px;
-  margin-bottom: 0;
-  padding: 20px;
+  min-width: 25%;
+  width: 100%;
+  max-width: unset;
+  padding: 15px 80px;
+  margin: 15px 0 0;
+  width: auto;
 }
-
+.main-section-buttons-container .secondary-actions {
+  display: flex;
+  color: var(--shell-dark-brown);
+}
+.main-section-buttons-container .secondary-actions h3 {
+  margin: 15px;
+}
+.main-section-buttons-container .secondary-actions h3:hover {
+  cursor: pointer;
+  color: var(--shell-light-pink);
+}
 .small_rocks {
   position: absolute;
   width: 300px;
@@ -180,5 +193,10 @@
   }
   .main-section-details-specifics {
     font-size: 16px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .main-section-buttons-container .submit-button {
+    margin: 10px;
   }
 }
