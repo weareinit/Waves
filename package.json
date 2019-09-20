@@ -15,7 +15,7 @@
     "react-scroll": "^1.7.12"
   },
   "scripts": {
-    "restart":"react-scripts build"
+    "restart": "react-scripts build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
