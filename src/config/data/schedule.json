@@ -5,69 +5,191 @@
     }],
     "friday": [{
             "time": "Check-In ",
-            "description": " 4 - 7 PM"
+            "description": " 4 - 7 PM - GC Ballroom Lobby"
         },
         {
             "time": "Dinner",
-            "description": " 7 - 8 PM"
+            "description": " 7 - 8 PM  - GC Faculty Club"
         },
         {
             "time": "Opening Ceremony",
-            "description": " 8 - 9 PM"
+            "description": " 8 - 9 PM - GC Ballroom"
         },
         {
             "time": "Sponsor Fair",
-            "description": " 9 - 10:30 PM"
+            "description": " 9 - 10:30 PM - GC Hallway"
         },
         {
             "time": "Hacking Begins!",
             "description": " 10:30 PM"
+        },
+        {
+            "time": "Team Building Activity",
+            "description": " 10:30 - 11PM - GC 283A"
         }
     ],
-    "saturday": [{
-            "time": "Midnight Snack++",
-            "description": " 1 - 2 AM"
+    "saturday": [
+        {    
+            "time": "GitHub & VSCode Workshop",
+            "description": " 12 - 1 AM - GC 140"
+        },
+        {    
+            "time": "Midnight++ Snack",
+            "description": " 1 - 1:30 AM - GC Faculty Club"
+        },
+        {    
+            "time": "Python & Django Workshop by JPMC",
+            "description": " 1 - 2 AM - GC 140"
+        },
+        {    
+            "time": "HTML/CSS Workshop",
+            "description": " 2:15 - 2:45 AM - GC 140"
+        },
+        {    
+            "time": "Werewolf",
+            "description": " 2:40 - 3:40 AM - GC 283A"
+        },
+        {    
+            "time": "Unreal Engine Workshop",
+            "description": " 3 - 3:45 AM - GC 140"
+        },
+        {    
+            "time": "Yoga",
+            "description": " 7 - 7:45 AM - GC Lawns"
         },
         {    
             "time": "Breakfast",
-            "description": " 8 - 9 AM"
+            "description": " 8 - 9 AM - GC Faculty Club"
         },
         {
-            "time": "Lunch ",
-            "description": " 1 - 2 PM"
+            "time": "Capture The Flag Intro Workshop by FCA",
+            "description": " 9:10 - 9:40 AM - GC 140"
+        },
+        {
+            "time": "CTF Begins",
+            "description": " 9:30 AM - 8 PM"
+        },
+        {    
+            "time": "Microsoft Azure Workshop",
+            "description": " 9:50 - 10:50 AM - GC 140"
+        },
+        {
+            "time": "Reverse Engineering Workshop by AutoNation",
+            "description": " 10:55 - 11:25 AM - GC 140"
+        },
+        {
+            "time": "Scavenger Hunt",
+            "description": " 11 AM - 2 PM - GC 283A"
+        },
+        {
+            "time": "Google Cloud Workshop",
+            "description": " 11:30 AM - 12:30 PM - GC 140"
+        },
+        {
+            "time": "Career Development by Assurant",
+            "description": " 12:40 - 1:10 PM - GC 140"
+        },
+        {
+            "time": "Lunch",
+            "description": " 1:30 - 2:30 PM - GC Faculty Club"
+        },
+        {
+            "time": "NodeJS Workshop by Citrix",
+            "description": " 2:40 - 3:10 PM - GC 140"
+        },
+        {
+            "time": "Karaoke",
+            "description": " 3 - 3:45 PM - GC Pit"
+        },
+        {
+            "time": "Unity Workshop by Microsoft",
+            "description": " 3:15 - 4:15 PM - GC 140"
+        },
+        {
+            "time": "Raspberry Pi Workshop",
+            "description": " 4:25 - 4:55 PM - GC 140"
+        },
+        {
+            "time": "Swift Workshop",
+            "description": " 5 - 5:30 PM - GC 140"
+        },
+        {
+            "time": "MLH Cup Stacking",
+            "description": " 5:15 - 6:15 PM - GC Pit"
+        },
+        {
+            "time": "GraphQL Workshop",
+            "description": " 5:40 - 6:10 PM - GC 140"
+        },
+        {
+            "time": "Matrix Labs Workshop",
+            "description": " 6:15 - 6:45 PM - GC 140"
+        },
+        {
+            "time": "React Workshops",
+            "description": " 6:50 - 7:20 PM - GC 140"
+        },
+        {
+            "time": "UI/UX Workshop",
+            "description": " 7:25 - 7:55 PM - GC 140"
+        },
+        {
+            "time": "Dinner",
+            "description": " 6:50 - 7:20 PM - GC Faculty Club"
+        },
+        {
+            "time": "3-D Printing Workshop",
+            "description": " 8:55 - 9:25 PM - GC 140"
+        },
+        {
+            "time": "Docker Workshop by State Farm",
+            "description": " 9:30 - 10 PM - GC 140"
+        },
+        {
+            "time": "Ladies Storm Hackathons",
+            "description": " 10 - 10:30 PM - GC 283A"
+        },
+        {
+            "time": "Intro to Python with Data Visualization Workshop",
+            "description": " 10:05 - 10:35 PM - GC 140"
+        },
+        {
+            "time": "Machine Learning Workshop",
+            "description": " 10:40 - 11:10 PM - GC 140"
+        }
+    ],
+    "sunday": [
+        {
+            "time": "Pokemon Go Midnight Expedition",
+            "description": " 12 - 1 AM GC Lawn"
+        },
+        {
+            "time": "Linux & Cybersecurity by MITRE",
+            "description": " 12 - 1 AM - GC 140"
         },
         {
             "time": "Snack",
-            "description": " 5 - 6 PM"
+            "description": " 1 - 1:30 AM - GC Faculty"
         },
         {
-            "time": "Dinner ",
-            "description": " 8 - 9 PM"
-        }
-    ],
-    "sunday": [{
+            "time": "Smash Bros Tournament",
+            "description": " 1:30 - 3 AM - GC Piano Room"
+        },
+        {
             "time": "Breakfast",
-            "description": " 7 - 8 AM"
+            "description": " 8:30 - 9:30 AM - GC Faculty Club"
         },
         {
-            "time": "Submissions Due",
-            "description": " 8 AM"
+            "time": "Hackathon Expo",
+            "description": " 10 AM - 12 PM - GC Ballrooms"
         },
         {
-            "time": "Hacking Ends",
-            "description": " 9 AM"
-        },
-        {
-            "time": "Demo Time!",
-            "description": " 10 AM - 12:30 PM"
+            "time": "Judge Deliberations",
+            "description": " 2:30 - 1 PM - GC Faculty Club"
         },
         {
             "time": "Closing Ceremony",
-            "description": " 1 - 2 PM"
-        },
-        {
-            "time": "ShellHacks Ends & Farewell Lunch!",
-            "description": " 2:30 PM"
+            "description": " 1 - 2 PM - GC Ballrooms"
         }
     ]
 }
