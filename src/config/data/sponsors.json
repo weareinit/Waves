@@ -15,7 +15,7 @@
     "name": "Xbox",
     "tier": "temp",
     "url": "https://www.xbox.com",
-    "logo": "xbox.svg"
+    "logo": "Xbox.svg"
   },
   {
     "name": "Google",
@@ -207,7 +207,7 @@
     "name": "JetBrains",
     "tier": "sponsor",
     "url": "https://www.jetbrains.com",
-    "logo": "JetBrains.svg"
+    "logo": "Jetbrains.svg"
   },
   {
     "name": "Stickermule",
