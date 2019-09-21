@@ -9,7 +9,8 @@ import "./styles.css";
 const Main = ({
   handleRegisterClick,
   handleMentorClick,
-  handleVolunteerClick
+  handleVolunteerClick,
+  handleLiveClick
 }) => {
   return (
     <div className="home-container">
@@ -52,6 +53,11 @@ const Main = ({
               <Button
                 title="Login"
                 action={handleRegisterClick}
+                labelStyle="register-button"
+              />
+              <Button
+                title="Live Site"
+                action={handleLiveClick}
                 labelStyle="register-button"
               />
               <div className="secondary-actions">
