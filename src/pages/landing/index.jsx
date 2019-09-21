@@ -19,6 +19,10 @@ export default class Landing extends Component {
     window.open("https://dashboard.shellhacks.net"); //this will go to login if you're not already logged in
   };
 
+  handleLiveClick = () => {
+    window.open("https://shellhacks.live/"); //this will go to live plage
+  };
+
   handleMentorClick = () => {
     window.open(
       "https://docs.google.com/forms/d/e/1FAIpQLSc77lDukz31YLXOK1X5feZnUi_HgZ92V3Fyi36duDhjk7_-AQ/viewform"
@@ -50,6 +54,7 @@ export default class Landing extends Component {
             handleMentorClick={this.handleMentorClick}
             handleRegisterClick={this.handleRegisterClick}
             handleVolunteerClick={this.handleVolunteerClick}
+            handleLiveClick={ this.handleLiveClick }
           />
           <div className="landing-gradient">
             <Info />
