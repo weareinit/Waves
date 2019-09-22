@@ -72,6 +72,36 @@
     "logo": "Autonation.svg"
   },
   {
+    "name": "Akamai",
+    "tier": "temp",
+    "url": "",
+    "logo": "Akamai.svg"
+  },
+  {
+    "name": "RBI",
+    "tier": "temp",
+    "url": "",
+    "logo": "RBI.svg"
+  },
+  {
+    "name": "Popeyes",
+    "tier": "temp",
+    "url": "",
+    "logo": "Popeyes.svg"
+  },
+  {
+    "name": "Burger King",
+    "tier": "temp",
+    "url": "",
+    "logo": "BurgerKing.svg"
+  },
+  {
+    "name": "FIU SGA",
+    "tier": "temp",
+    "url": "",
+    "logo": "FIU_SGA.svg"
+  },
+  {
     "name": "Nike",
     "tier": "temp",
     "url": "https://nike.com/",
@@ -90,6 +120,12 @@
     "logo": "Chevron.svg"
   },
   {
+    "name": "Deloitte",
+    "tier": "temp",
+    "url": "",
+    "logo": "Deloitte.svg"
+  },
+  {
     "name": "RCCL",
     "tier": "temp",
     "url": "https://www.royalcaribbean.com",
@@ -102,10 +138,22 @@
     "logo": "Farelogix.svg"
   },
   {
+    "name": "Facebook",
+    "tier": "temp",
+    "url": "",
+    "logo": "Facebook.svg"
+  },
+  {
     "name": "Redfin",
     "tier": "temp",
     "url": "https://www.redfin.com",
     "logo": "Redfin.svg"
+  },
+  {
+    "name": "World Fuel Services",
+    "tier": "temp",
+    "url": "",
+    "logo": "WFS.svg"
   },
   {
     "name": "Taxfyle",
@@ -114,10 +162,22 @@
     "logo": "Taxfyle.svg"
   },
   {
+    "name": "FIU Online",
+    "tier": "temp",
+    "url": "",
+    "logo": "FIU_Online.svg"
+  },
+  {
     "name": "GitHub",
     "tier": "temp",
     "url": "https://github.com",
     "logo": "Github.svg"
+  },
+  {
+    "name": "Vanguard",
+    "tier": "temp",
+    "url": "",
+    "logo": "Vanguard.svg"
   },
   {
     "name": "Lyft",
@@ -198,6 +258,24 @@
     "logo": "Heroku.svg"
   },
   {
+    "name": "Hasura",
+    "tier": "temp",
+    "url": "",
+    "logo": "Hasura.svg"
+  },
+  {
+    "name": "Clarifai",
+    "tier": "temp",
+    "url": "",
+    "logo": "Clarifai.svg"
+  },
+  {
+    "name": "MixMax",
+    "tier": "temp",
+    "url": "",
+    "logo": "MixMax.svg"
+  },
+  {
     "name": "MATRIX",
     "tier": "sponsor",
     "url": "https://www.matrix.one",
@@ -208,6 +286,12 @@
     "tier": "sponsor",
     "url": "https://www.jetbrains.com",
     "logo": "JetBrains.svg"
+  },
+  {
+    "name": "Devpost",
+    "tier": "temp",
+    "url": "",
+    "logo": "Devpost.svg"
   },
   {
     "name": "Stickermule",
@@ -234,6 +318,24 @@
     "logo": "Pepsi.svg"
   },
   {
+    "name": "Publix",
+    "tier": "temp",
+    "url": "",
+    "logo": "Publix.svg"
+  },
+  {
+    "name": "Carvel",
+    "tier": "temp",
+    "url": "",
+    "logo": "Carvel.svg"
+  },
+  {
+    "name": "Night Owl Cookies",
+    "tier": "temp",
+    "url": "",
+    "logo": "NightOwl.svg"
+  },
+  {
     "name": "Taylor Design",
     "tier": "sponsor",
     "url": "https://www.instagram.com/tayloreventdesign/",
@@ -250,6 +352,18 @@
     "tier": "sponsor",
     "url": "https://www.cis.fiu.edu",
     "logo": "FIUSCIS.svg"
+  },
+  {
+    "name": "FIU Engagement",
+    "tier": "temp",
+    "url": "",
+    "logo": "FIU_Engagement.svg"
+  },
+  {
+    "name": "FIU Honors",
+    "tier": "temp",
+    "url": "",
+    "logo": "FIU_Honors.svg"
   },
   {
     "name": "MLH",
