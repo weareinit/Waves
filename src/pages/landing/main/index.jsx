@@ -50,16 +50,13 @@ const Main = ({
               </p>
             </div>
             <div className="main-section-buttons-container ">
-              <Button
-                title="Login"
-                action={handleRegisterClick}
-                labelStyle="register-button"
-              />
-              <Button
-                title="Live Site"
-                action={handleLiveClick}
-                labelStyle="register-button"
-              />
+              <a href="https://shellhacks.net/">
+                <Button
+                  title="2020 Site"
+                  action={() => { }}
+                  labelStyle="register-button"
+                />
+              </a>
               <div className="secondary-actions">
                 <h3 onClick={handleMentorClick}>
                   <FontAwesomeIcon icon={faHandsHelping} /> Mentor

@@ -54,7 +54,7 @@ export default class Landing extends Component {
             handleMentorClick={this.handleMentorClick}
             handleRegisterClick={this.handleRegisterClick}
             handleVolunteerClick={this.handleVolunteerClick}
-            handleLiveClick={ this.handleLiveClick }
+            handleLiveClick={this.handleLiveClick}
           />
           <div className="landing-gradient">
             <Info />
