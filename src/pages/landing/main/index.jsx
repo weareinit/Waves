@@ -57,14 +57,6 @@ const Main = ({
                   labelStyle="register-button"
                 />
               </a>
-              <div className="secondary-actions">
-                <h3 onClick={handleMentorClick}>
-                  <FontAwesomeIcon icon={faHandsHelping} /> Mentor
-                </h3>
-                <h3 onClick={handleVolunteerClick}>
-                  <FontAwesomeIcon icon={faFistRaised} /> Volunteer
-                </h3>
-              </div>
             </div>
           </div>
         </section>
